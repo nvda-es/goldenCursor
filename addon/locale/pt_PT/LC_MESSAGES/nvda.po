@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Cursor Dourado 2.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-12-26 10:18+0000\n"
-"PO-Revision-Date: 2021-07-26 12:54+0100\n"
+"PO-Revision-Date: 2021-10-30 22:11+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -88,7 +88,7 @@ msgstr ""
 "diferente."
 
 msgid "Error"
-msgstr "Erro!"
+msgstr "Erro"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
@@ -119,7 +119,7 @@ msgstr "Limpar as posições do rato"
 #. Translators: A dialog message shown when tags for the application is cleared.
 #, python-brace-format
 msgid "All mouse positions for the application {appName} have been deleted."
-msgstr "Todas as posições do rato para a aplicação {appName} foram apagadas. "
+msgstr "Todas as posições do rato para a aplicação {appName} foram apagadas."
 
 #. Translators: Title of the tag clear confirmation dialog.
 msgid "Mouse positions cleared"
