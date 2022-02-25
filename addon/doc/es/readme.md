@@ -1,7 +1,7 @@
 # Golden Cursor #
 
 * Autores: salah atair, Joseph Lee
-* Descargar [versión de desarrollo][1]
+* Descargar [versión estable][1]
 * Compatibilidad con NVDA: 2019.3 y versiones posteriores
 
 Este complemento te permite mover el ratón utilizando un teclado y guardar

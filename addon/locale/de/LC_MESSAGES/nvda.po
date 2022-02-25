@@ -17,6 +17,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 3.0\n"
 
+msgid "left click"
+msgstr ""
+
 #, python-format
 msgid "Mouse positions for %s"
 msgstr "Maus-Positionen für %s"
@@ -27,6 +30,30 @@ msgstr "Neue Maus-Position"
 #. Translators: The label for the list view of the mouse positions in the current application.
 msgid "&Saved mouse positions"
 msgstr "&Gespeicherte Maus-Positionen"
+
+#. Translators: the button to jump to the selected position.
+msgid "&Jump"
+msgstr "&Springen"
+
+#. Translators: the button to rename a mouse position.
+msgid "&Rename"
+msgstr "&Umbenennen"
+
+#. Translators: the button to set  shortcut for mouse a position.
+msgid "&add shortcut"
+msgstr ""
+
+#. Translators: the button to delete the selected mouse position.
+msgid "&Delete"
+msgstr "&Löschen"
+
+#. Translators: the button to clear all mouse positions for the focused app.
+msgid "C&lear positions"
+msgstr "Positionen &löschen"
+
+#. Translators: The label of a button to close the mouse positions dialog.
+msgid "&Close"
+msgstr "S&chließen"
 
 #. Translators: the column in mouse positions list to identify the position name.
 msgid "Name"
@@ -40,25 +67,9 @@ msgstr "Position X"
 msgid "Position Y"
 msgstr "Position Y"
 
-#. Translators: the button to jump to the selected position.
-msgid "&Jump"
-msgstr "&Springen"
-
-#. Translators: the button to rename a mouse position.
-msgid "&Rename"
-msgstr "&Umbenennen"
-
-#. Translators: the button to delete the selected mouse position.
-msgid "&Delete"
-msgstr "&Löschen"
-
-#. Translators: the button to clear all mouse positions for the focused app.
-msgid "C&lear positions"
-msgstr "Positionen &löschen"
-
-#. Translators: The label of a button to close the mouse positions dialog.
-msgid "&Close"
-msgstr "S&chließen"
+#. Translators: the column in mouse positions list to identify the Shortcut.
+msgid "shortCut"
+msgstr ""
 
 msgid "&X position"
 msgstr "&X-Position"
@@ -85,6 +96,13 @@ msgstr ""
 
 msgid "Error"
 msgstr "Fehler"
+
+#. Translators: The prompt to enter a gesture
+msgid "Enter input gesture:"
+msgstr ""
+
+msgid "Shortcut added successfully"
+msgstr ""
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
@@ -176,7 +194,7 @@ msgstr ""
 msgid "Report new mouse coordinates on"
 msgstr "Mitteilung neuer Maus-Koordinaten eingeschaltet"
 
-#. Translators: reported when new mouse coordinate announcement is on.
+#. Translators: reported when new mouse coordinate announcement is off.
 msgid "Report new mouse coordinates off"
 msgstr "Mitteilung neuer Maus-Koordinaten ausgeschaltet"
 
