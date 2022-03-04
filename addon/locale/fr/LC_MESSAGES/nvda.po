@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: goldenCursor Version 2.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2021-09-16 15:16+0200\n"
-"Last-Translator: Cyrille Bougot <cyrille.bougot2@laposte.net>\n"
+"PO-Revision-Date: 2022-02-25 09:54+0100\n"
+"Last-Translator: Michel Such <michelsuch93@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 3.0.1\n"
 
 msgid "left click"
-msgstr ""
+msgstr "clic gauche"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -41,7 +41,7 @@ msgstr "&Renommer"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&ajouter un raccourci"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -69,7 +69,7 @@ msgstr "Position Y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "shortcut"
 
 msgid "&X position"
 msgstr "Position &X"
@@ -99,10 +99,10 @@ msgstr "Erreur"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Entrez un geste de commande :"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "Raccourci ajouté avec succès"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
@@ -270,12 +270,3 @@ msgid ""
 msgstr ""
 "Permet de contrôler les mouvements de la souris avec le clavier. Pour plus "
 "de détails veuillez visiter l'aide du module."
-
-#~ msgid "&Golden Cursor..."
-#~ msgstr "&Golden Cursor..."
-
-#~ msgid "Golden Cursor add-on settings"
-#~ msgstr "Paramètres du module Golden Cursor"
-
-#~ msgid "Golden Cursor Settings"
-#~ msgstr "Paramètres de Golden Cursor"

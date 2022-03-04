@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2021-07-26 11:18+0200\n"
+"PO-Revision-Date: 2022-02-25 09:43+0100\n"
 "Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.0.1\n"
 
 msgid "left click"
-msgstr ""
+msgstr "clic izquierdo"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -41,7 +41,7 @@ msgstr "&Renombrar"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&añadir atajo"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -69,7 +69,7 @@ msgstr "Posición Y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "atajo"
 
 msgid "&X position"
 msgstr "Posición &x"
@@ -99,10 +99,10 @@ msgstr "Error"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Pulsa el atajo:"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "Atajo añadido con éxito"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
