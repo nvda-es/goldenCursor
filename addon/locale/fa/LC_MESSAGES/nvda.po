@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2021-09-13 11:06+0330\n"
+"PO-Revision-Date: 2022-03-11 12:51+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,5,-1,-1\n"
 
 msgid "left click"
-msgstr ""
+msgstr "چپ‌کلیک"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -44,7 +44,7 @@ msgstr "&تغییرِ نام دادن"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&افزودنِ میانبر"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -72,7 +72,7 @@ msgstr "موقعیتِ Y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "میانبر"
 
 msgid "&X position"
 msgstr "موقعیتِ &X"
@@ -100,10 +100,10 @@ msgstr "خطا"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "فرمان را وارد کنید:"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "میانبر با موفقیت افزوده شد"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
