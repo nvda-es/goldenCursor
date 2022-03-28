@@ -2,13 +2,13 @@
 
 * Author: salah atair, Joseph Lee
 * Download [stable version][1]
-* NVDA compatibility: 2019.3 and beyond
+* NVDA compatibility: 2021.3 and beyond
 
 This add-on allows you to move the mouse using a keyboard and save mouse positions for applications.
 
 ## Key commands
 
-* Control+NVDA+L: view saved mouse positions for an application if any.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You can also assign gestures to these positions from this dialog. When pressing the assigned gesture, a left click will be performed in the saved position.
 * Shift+NVDA+l: save a tag or a label for the current mouse position in the currently focused application.
 * Windows+NVDA+C: change mouse movement unit.
 * Windows+NVDA+R: toggle mouse restriction.
@@ -28,6 +28,11 @@ Note: these gestures can be reassigned via NVDA's Input Gestures dialog under Go
 * Version 1.x and 2.x mouse position formats are incompatible.
 * To perform functions that require use of arrow keys, turn off mouse arrows first.
 * When deleting saved positions, if there are no saved positions left, positions for the application will be cleared.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions list. When pressing a shortcut, a left click will be performed for the position.
 
 ## Version 5.0
 
