@@ -27,7 +27,7 @@ addon_info = {
 	# version
 	"addon_version": "6.1",
 	# Author(s)
-	"addon_author": "Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph.lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>",
+	"addon_author": "Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph.lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>, NVDA spanish community <contacto@nvda.es>",
 	# URL for the add-on documentation support
 	"addon_url": "https://addons.nvda-project.org/addons/goldenCursor.en.html",
 	# Documentation file name
