@@ -2,15 +2,17 @@
 
 * Autorzy: salah atair, Joseph Lee
 * Pobierz [wersja stabilna][1]
-* Zgodność z wersjami NVDA: 2019.3 and beyond
+* NVDA compatibility: 2021.3 and beyond
 
 Ten dodatek umożliwia ruszanie myszą za pomocą klawiatury i zapisywanie
 pozycji myszy dla danej aplikacji.
 
 ## Polecenia klawiszowe
 
-* Control+NVDA+L: przeglądaj zapisane pozycje myszy dla danej aplikacji,
-  jeśli jakieś zostały wcześniej zapisane.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Shift+NVDA+L: Zapisz tag lub oznaczenie dla aktualnej pozycji myszy w
   aktualnie otwartej aplikacji.
 * Windows+NVDA+C: Zmień jednostkę ruchu myszy.
@@ -38,6 +40,13 @@ kategorii Golden Cursor.
   należy wyłączyć strzałki myszy.
 * Jeżeli wszystkie zapisane w dodatku pozycje zostaną usunięte, lista
   pozycji dla danej aplikacji zostanie wyczyszczona.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

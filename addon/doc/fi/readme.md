@@ -2,14 +2,17 @@
 
 * Tekijät: Salah Atair ja Joseph Lee
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2019.3 ja uudemmat
+* Yhteensopivuus: NVDA 2021.3 ja uudemmat
 
 Tämän lisäosan avulla voit siirtää hiirtä näppäimistöä käyttäen sekä
 tallentaa hiiren sijainteja sovelluksille.
 
 ## Näppäinkomennot
 
-* Ctrl+NVDA+L: näytä sovellukselle tallennetut hiiren sijainnit.
+* Ctrl+NVDA+L: Näytä sovellukselle tallennetut hiiren sijainnit, jos niitä
+  on. Tästä valintaikkunasta voit myös määrittää syötekomennot kullekin
+  sijainnille. Kun määritettyä syötekomentoa painetaan, tallennetussa
+  sijainnissa suoritetaan hiiren vasemman painikkeen napsautus.
 * Vaihto+NVDA+L: tallenna tunniste tai selite nykyiselle hiiren sijainnille
   aktiivisessa sovelluksessa.
 * Win+NVDA+C: muuta hiiren siirtämisen yksikköä.
@@ -38,6 +41,13 @@ Syötekomennot-valintaikkunasta Golden Cursor -kategorian alta.
   hiirinuolet käytöstä.
 * Mikäli tallennettuja sijainteja ei ole jäljellä niitä poistettaessa,
   sovelluksen sijainnit tyhjennetään.
+
+## Versio 6.1
+
+* Vaatii NVDA 2021.3:n tai uudemman.
+* Sijainnit-luettelosta voit nyt määrittää pikanäppäimen kullekin
+  sijainnille. Kun määritettyä pikanäppäintä painetaan, sijainnille
+  suoritetaan hiiren vasemman painikkeen napsautus.
 
 ## Versio 5.0
 

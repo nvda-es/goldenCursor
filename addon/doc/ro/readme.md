@@ -2,15 +2,17 @@
 
 * Autori: salah atair, Joseph Lee
 * Descarcă [versiunea stabilă][1]
-* Compatibilitate NVDA: 2019.3 și mai nou
+* NVDA compatibility: 2021.3 and beyond
 
 Acest supliment îți permite să muți mausul folosind tastatura și să salvezi
 pozițiile mausului pentru aplicații.
 
 ## Combinații de taste
 
-* Control+NVDA+L: afișeaza pozițiile maus salvate pentru o anumită
-  aplicație.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Shift+NVDA+l: salveaza o etichetă pentru poziția actuală a mausului în
   aplicația activă.
 * Windows+NVDA+C: schimbă unitatea de mișcare a mausului.
@@ -39,6 +41,13 @@ meniul NVDA, preferințe.
   standard, dezactivați mai întâi săgețile maus.
 * Atunci când ștergeți ultima poziție salvată, pozițiile aplicației vor fi
   curățate .
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

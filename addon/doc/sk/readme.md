@@ -2,14 +2,17 @@
 
 * Autori: salah atair, Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
-* Funguje s NVDA od verzie 2019.3
+* NVDA compatibility: 2021.3 and beyond
 
 Umožňuje pohybovať kurzorom myši z klávesnice a uložiť pozície myši pre
 klikanie v aplikáciách.
 
 ## Klávesové skratky
 
-* Nvda+ctrl+l: Zobraz uložené pozície pre otvorenú aplikáciu.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Nvda+shift+L: Zapamätaj si pozíciu myši pre otvorenú aplikáciu.
 * nvda+windows+c: Zmeň jednotku pohybu kurzora myši.
 * Nvda+windows+R: Zapni alebo vypni obmedzenie pohybu kurzora myši na
@@ -39,6 +42,13 @@ Klávesové skratky môžete zmeniť v dialógu klávesové skratky.
   myši pomocou kurzorových kláves.
 * Ak vymažete poslednú zapamätanú pozíciu pre aktuálnu aplikáciu, zmaže sa
   celý súbor s dátami pre aktuálnu aplikáciu.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

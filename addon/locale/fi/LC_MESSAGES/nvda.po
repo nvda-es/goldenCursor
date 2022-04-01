@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2021-07-26 16:45+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"PO-Revision-Date: 2022-03-30 11:43+0200\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 
 msgid "left click"
-msgstr ""
+msgstr "Vasen napsautus"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -43,7 +43,7 @@ msgstr "&Nimeä uudelleen"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&Lisää pikanäppäin"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -71,7 +71,7 @@ msgstr "Sijainti Y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "Pikanäppäin"
 
 msgid "&X position"
 msgstr "&X-sijainti"
@@ -100,10 +100,10 @@ msgstr "Virhe"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Anna syötekomento:"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "Pikanäppäin lisätty onnistuneesti"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
