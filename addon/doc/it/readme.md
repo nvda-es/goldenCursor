@@ -2,15 +2,17 @@
 
 * Autori: salah atair, Joseph Lee
 * Scarica la [versione stabile][1]
-* Compatibilità con NVDA: versione 2019.3 e successive
+* NVDA compatibility: 2021.3 and beyond
 
 Questo add-on permette di spostare il mouse con la tastiera e di salvare le
 posizioni del mouse per le applicazioni.
 
 ## Comandi disponibili
 
-* Control+NVDA+L: Visualizza le posizioni del mouse salvate per
-  l'applicazione corrente se disponibili.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Shift+NVDA+l: Apre una finestra di dialogo per etichettare e salvare la
   posizione corrente del mouse.
 * Windows+NVDA+C: Cambia l'unità di misura per il movimento del mouse.
@@ -41,6 +43,13 @@ immissione nel menu preferenze di NVDA alla categoria Golden Cursor.
   disattivare la funzione movimento del mouse tramite tasti freccia.
 * Quando si cancellano le posizioni memorizzate, se non sono rimaste
   posizioni salvate, verranno eliminate le posizioni per l'applicazione.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

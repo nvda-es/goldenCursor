@@ -2,15 +2,17 @@
 
 * Autor: Salah Atair, Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA kompatibilnost: 2019.3 i novija
+* NVDA compatibility: 2021.3 and beyond
 
 Ovaj dodatak dozvoljava pomicati strelicu miša koristeći tipkovnicu i
 spremanje pozicije miša za programe.
 
 ## Tipkovnički prečaci
 
-* Kontrol+NVDA+L: pogledaj spremljene pozicije miša za neku aplikaciju, ako
-  ih ima.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Šift+NVDA+l: spremi oznaku ili vrijednost za trenutačnu poziciju miša u
   trenutačno fokusiranoj aplikaciji.
 * Windows+NVDA+C: promijeni jedinicu pomicanja miša.
@@ -39,6 +41,13 @@ pod kategorijom „Zlatni kursor”.
   isključi strelice miša.
 * Tijekom brisanja spremljenih pozicija, ako više nema spremljenih pozicija,
   uklonit će se pozicije za aplikaciju.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

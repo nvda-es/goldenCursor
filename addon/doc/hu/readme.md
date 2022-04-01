@@ -2,7 +2,7 @@
 
 * Készítők: salah atair, Joseph Lee
 * Letöltés [Stabil verzió][1]
-* Kompatibilitás: NVDA 2019.3 és újabb kiadások
+* NVDA compatibility: 2021.3 and beyond
 
 Ez a kiegészítő lehetővé teszi az egérkurzor mozgatását a billentyűzet
 használatával, ill. elmenthet vele egérkurzor-koordinátákat a különböző
@@ -10,8 +10,10 @@ alkalmazásokhoz.
 
 ## Billentyűparancsok
 
-* Ctrl+NVDA+L: Az aktív alkalmazáshoz elmentett egérpozíciók listája,
-  amennyiben van ilyen.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Shift+NVDA+l: Aktuális egérpozíció elmentése az aktív alkalmazáshoz.
 * Windows+NVDA+C: az egérmutató elmozdulás mértékének változtatása.
 * Windows+NVDA+R: Be- vagy kikapcsolja az Egérmozgatás korlátozását az aktív
@@ -43,6 +45,13 @@ párbeszédpanelén az Aranykurzor kategóriában.
 * Amennyiben az elmentett egérpozíciók törlése után nem marad adott
   alkalmazáshoz egy egérpozíció sem, az alkalmazáshoz tartozó egérpozíciós
   fájl is törlődik.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

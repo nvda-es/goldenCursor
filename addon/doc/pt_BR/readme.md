@@ -2,15 +2,17 @@
 
 * Autor: salah atair, Joseph Lee
 * Baixe a [versão estável][1]
-* Compatibilidade com NVDA: 2019.3 e além
+* NVDA compatibility: 2021.3 and beyond
 
 Este complemento possibilita mover o mouse usando o teclado e salvar
 posições do mouse em aplicativos.
 
 ## Comandos de teclas
 
-* Control+NVDA+L: ver as posições salvas do mouse para um aplicativo, se
-  houver.
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Shift+NVDA+l: salva uma etiqueta (tag) ou um rótulo para a posição atual
   do mouse no aplicativo atualmente focalizado.
 * Windows+NVDA+C: muda a unidade de movimento do mouse.
@@ -38,6 +40,13 @@ Nota: Estes gestos podem ser reatribuídos via diálogo Definir Comandos
   setas do mouse primeiro.
 * Ao excluir posições salvas, se não houver posições salvas, as posições do
   aplicativo serão apagadas.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Versão 5.0
 

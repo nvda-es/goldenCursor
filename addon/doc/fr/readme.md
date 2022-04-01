@@ -2,15 +2,17 @@
 
 * Auteur : salah atair, Joseph Lee
 * Télécharger [version stable][1]
-* Compatibilité NVDA : 2019.3 et ultérieure
+* NVDA compatibility: 2021.3 and beyond
 
 Cette extension vous permet de déplacer la souris à l'aide du clavier et de
 sauvegarder la position de la souris pour les applications.
 
 ## Touche de commandes
 
-* Contrôle+NVDA+L : afficher les positions de la souris sauvegardées pour
-  une application, s'il y en a
+* Control+NVDA+L: view saved mouse positions for an application, if any. You
+  can also assign gestures to these positions from this dialog. When
+  pressing the assigned gesture, a left click will be performed in the saved
+  position.
 * Maj+NVDA+l : sauvegarde un tag ou une étiquette pour la position actuelle
   de la souris dans l'application ayant actuellement le focus.
 * Windows+NVDA+C : changer l'unité de mouvement de la souris.
@@ -42,6 +44,13 @@ commandes de NVDA sous la catégorie Golden Cursor.
   fléchées, désactivez d'abord les flèches de la souris.
 * Lorsque vous supprimez des positions sauvegardées, s'il n'y a plus de
   positions sauvegardées, les positions de l'application seront effacées.
+
+## Version 6.1
+
+* Requires NVDA 2021.3 or later.
+* Now, you can assign shortcuts for saved positions from the positions
+  list. When pressing a shortcut, a left click will be performed for the
+  position.
 
 ## Version 5.0
 

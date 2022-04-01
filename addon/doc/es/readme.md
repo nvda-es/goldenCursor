@@ -2,15 +2,17 @@
 
 * Autores: salah atair, Joseph Lee
 * Descargar [versión estable][1]
-* Compatibilidad con NVDA: 2019.3 y versiones posteriores
+* Compatibilidad con NVDA: de 2021.3 en adelante
 
 Este complemento te permite mover el ratón utilizando un teclado y guardar
 las posiciones del ratón para las aplicaciones.
 
 ## Teclas de Órdenes
 
-* Control+NVDA+L: ver posiciones guardadas del ratón para una aplicación si
-  hay alguna.
+* Control+NVDA+L: ver posiciones del ratón guardadas para una aplicación, si
+  las hay. También se pueden asignar gestos para estas posiciones desde este
+  diálogo. Al pulsar un gesto asignado, se realizará un clic izquierdo en la
+  posición guardada.
 * Shift+NVDA+l: guarda una marca o una etiqueta para la posición del ratón
   actual en la aplicación enfocada actualmente.
 * Windows+NVDA+C: cambiar la unidad de movimiento del ratón.
@@ -39,6 +41,13 @@ el menú Preferencias de NVDA en la categoría  Golden Cursor.
   desactiva flechas del ratón.
 * Al eliminar posiciones guardadas, si no quedan más posiciones guardadas,
   se limpiarán las de la aplicación.
+
+## Versión 6.1
+
+* Se requiere NVDA 2021.3 o posterior.
+* Ahora se pueden asignar atajos para las posiciones guardadas desde la
+  lista de posiciones. Al pulsar un atajo, se realizará un clic izquierdo en
+  la posición.
 
 ## Versión 5.0
 
