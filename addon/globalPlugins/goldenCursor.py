@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # golden cursor
-# Copyright (C) 2015-2021
-# Version 2.2
+# Copyright (C) 2015-2022
+# Version 6.1
 # License GNU GPL
-# Date: 25/12/2015
+# Date: 04/04/2022
 # team work: author: salah atair, translation and keycommands are made by wafeeq taher
 # Additional tweaking done by Joseph Lee and contributors, resetting version to 1.0.
 

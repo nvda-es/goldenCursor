@@ -1,5 +1,5 @@
 # Golden Cursor installation tasks
-# Copyright 2016-2021 Joseph Lee and others, released under GPL.
+# Copyright 2016-2022 Joseph Lee and others, released under GPL.
 
 # Provides needed routines during add-on installation and removal.
 # Routines are partly based on other add-ons,
