@@ -2,17 +2,17 @@
 
 * Autor: Salah Atair, Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA-Kompatibilität: Ab 2021.3
 
 Diese Erweiterung ermöglicht das Ziehen der Maus mit der Tastatur und das
 Speichern der gewünschten Mauspositionen für die jeweilige Anwendung.
 
 ## Tastenkombinationen
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Strg+NVDA+L: Zeigt die gespeicherte Maus-Positionen für eine Anwendung an,
+  falls vorhanden. Sie können diese Positionen im Dialogfeld auch
+  Tastenbefehle zuweisen. Wenn Sie den zugewiesenen Tastenbefehl drücken,
+  wird ein Linksklick an der gespeicherten Position ausgeführt.
 * Umschalt+NVDA+l: Speichern eines Tags oder einer Bezeichnung für die
   aktuelle Mausposition in der aktuell fokussierten Anwendung.
 * Windows+NVDA+C: ändert die Maus-Bewegungseinheit.
@@ -44,10 +44,10 @@ im Dialog Eingaben in der Kategorie "goldener Cursor" angepasst werden.
 
 ## Version 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Benötigt NVDA 2021.3 oder neuer.
+* Sie können nun Tastenkombinationen für gespeicherte Positionen aus der
+  Positionsliste zuweisen. Wenn Sie eine Tastenkombination drücken, wird ein
+  Linksklick auf die Position ausgeführt.
 
 ## Version 5.0
 
