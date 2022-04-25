@@ -1,20 +1,18 @@
 # -*- coding: utf-8 -*-
 # golden cursor
-# Copyright (C) 2015-2021
-# Version 2.2
+# Copyright (C) 2015-2022
+# Version 6.1.1
 # License GNU GPL
-# Date: 25/12/2015
-# team work: author : salah atair, translation and keycommands are made by wafeeq taher
+# Date: 04/25/2022
+# team work: author: salah atair, translation and keycommands are made by wafeeq taher
 # Additional tweaking done by Joseph Lee and contributors, resetting version to 1.0.
 
 # Control mouse from the keyboard,
 # including specifying hotspots, different movement units, mouse restrictions and others.
 
 import threading
-import tones
 import os
 from configobj import ConfigObj
-import time
 import globalPluginHandler
 import inputCore
 import gui
@@ -40,6 +38,7 @@ GCMouseDown = 2
 GCMouseUp = 3
 shortCut = "none"
 
+
 # Reports mouse position, used in various places.
 def reportMousePosition(x=None, y=None):
 	# The coordinates are keywords so specific position can be announced if needed.
@@ -51,15 +50,15 @@ def reportMousePosition(x=None, y=None):
 	ui.message("{0}, {1}".format(x, y))
 
 
-def setMousePosition(x, y, announceMousePosition=False, click = False):
+def setMousePosition(x, y, announceMousePosition=False, click=False):
 	# Setter version of report mouse position function.
 	# The new position announcement is to be used if needed.
 	winUser.setCursorPos(x, y)
 	mouseHandler.executeMouseMoveEvent(x, y)
 	if click:
-		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
-		wx.CallLater(100,ui.message, _("left click"))
+		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
+		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
+		wx.CallLater(100, ui.message, _("left click"))
 	if announceMousePosition:
 		# Announce this half a second later to give the appearance of mouse movement.
 		wx.CallLater(500, reportMousePosition, x=x, y=y)
@@ -195,11 +194,11 @@ class PositionsList(wx.Dialog):
 		self.mousePositionsList.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.onJump)
 		for entry in sorted(self.positions.keys()):
 			list = self.positions[entry].split(",")
-			x = list [0]
-			y = list [1]
+			x = list[0]
+			y = list[1]
 			try:
 				z = list[2]
-			except:
+			except Exception:
 				z = "None"
 			self.mousePositionsList.Append((entry, x, y, z))
 
@@ -251,38 +250,38 @@ class PositionsList(wx.Dialog):
 		del self.positions[oldName]
 
 	def onAdd(self, event):
-		# Translators: The prompt to enter a gesture 
-		t = threading.Timer(0.5, ui.message,[_("Enter input gesture:")])
+		# Translators: The prompt to enter a gesture
+		t = threading.Timer(0.5, ui.message, [_("Enter input gesture:")])
 		t.start()
 		inputCore.manager._captureFunc = self.addGestureCaptor
 
-	def saveShortCut (self, str):
+	def saveShortCut(self, str):
 		global shortCut
 		index = self.mousePositionsList.GetFirstSelected()
 		name = self.mousePositionsList.GetItemText(index)
-		list= self.positions[name].split(",") 
+		list = self.positions[name].split(",")
 		x = list[0]
-		y =list [1]
-		shortCut = str.split(":") [1]
-		shortCut = shortCut.replace("control","CONTROL")
+		y = list[1]
+		shortCut = str.split(":")[1]
+		shortCut = shortCut.replace("control", "CONTROL")
 		for k, v in self.positions.items():
-			if ","+shortCut in v:
-				newV = v.replace(","+shortCut, "")
-				self.positions [k] = newV
-		self.positions[name] = x+","+y+","+shortCut
+			if "," + shortCut in v:
+				newV = v.replace("," + shortCut, "")
+				self.positions[k] = newV
+		self.positions[name] = x + "," + y + "," + shortCut
 		self.mousePositionsList.ClearAll()
 		self.listItems()
 		self.mousePositionsList.Select(index, on=1)
 		self.mousePositionsList.SetFocus()
 		self.mousePositionsList.SetItemState(index, wx.LIST_STATE_FOCUSED, wx.LIST_STATE_FOCUSED)
-		t = threading.Timer(0.2, ui.message,[ _("Shortcut added successfully")])
+		t = threading.Timer(0.2, ui.message, [_("Shortcut added successfully")])
 		t.start()
 
 	def addGestureCaptor(self, gesture: inputCore.InputGesture):
 		if gesture.isModifier:
 			return False
 		inputCore.manager._captureFunc = None
-		wx.CallAfter (self.saveShortCut, gesture.identifiers[-1])
+		wx.CallAfter(self.saveShortCut, gesture.identifiers[-1])
 		return False
 
 	def deletePosition(self, clearPositions=False):
@@ -334,15 +333,15 @@ class PositionsList(wx.Dialog):
 	def onJump(self, event):
 		index = self.mousePositionsList.GetFirstSelected()
 		name = self.mousePositionsList.GetItemText(index)
-		list = self.positions[name].split(",") 
+		list = self.positions[name].split(",")
 		self.Destroy()
 		self.positions.write()
 		try:
-			x, y = list[0], list [1]
+			x, y = list[0], list[1]
 		except Exception:
 			return
 		self.positions = None
-		wx.CallLater(500, setMousePosition, int(x), int(y) )
+		wx.CallLater(500, setMousePosition, int(x), int(y))
 
 	def onClose(self, evt):
 		self.Destroy()
@@ -370,7 +369,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		gui.settingsDialogs.NVDASettingsDialog.categoryClasses.append(GoldenCursorSettings)
 		try:
 			self.getShortCut()
-		except:
+		except Exception:
 			pass
 
 	def terminate(self):
@@ -380,10 +379,10 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			pass
 
 	def event_gainFocus(self, obj, nextHandler):
-		self.getShortCut    ()
+		self.getShortCut()
 		nextHandler()
 
-	def getShortCut  (self):
+	def getShortCut(self):
 		appName = api.getFocusObject().appModule.appName
 		if not os.path.exists(os.path.join(GCMousePositions, f"{appName}.gc")):
 			self.clearGestureBindings()
@@ -393,23 +392,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			self.positions = ConfigObj(os.path.join(GCMousePositions, f"{appName}.gc"), encoding="UTF-8")
 			for entry in sorted(self.positions.values()):
 				try:
-					self.bindGesture(f"kb:{entry.split(',') [2]}","click")
-				except :
+					self.bindGesture(f"kb:{entry.split(',')[2]}", "click")
+				except Exception:
 					pass
 
-	def script_click(self,gesture):
+	def script_click(self, gesture):
 		for entry in sorted(self.positions.values()):
-			if entry.count (",") == 1:
-				entry = entry +",*"
+			if entry.count(",") == 1:
+				entry = entry + ",*"
 			entry = entry.replace("CONTROL", "ctrl")
 			try:
-				if gesture.displayName == entry.split(",") [2]:
-					x, y = entry.split(',') [:2]
-					wx.CallAfter(setMousePosition, int(x), int(y), announceMousePosition=False, click = True)
+				if gesture.displayName == entry.split(",")[2]:
+					x, y = entry.split(',')[:2]
+					wx.CallAfter(setMousePosition, int(x), int(y), announceMousePosition=False, click=True)
 					break
-			except:
+			except Exception:
 				return
-
 
 	@scriptHandler.script(
 		# Translators: input help message for a Golden Cursor command.
@@ -456,8 +454,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				name = d.GetValue().rstrip()
 				if name == "":
 					return
-				#appName = self.getMouse().appModule.appName
-		
+				# appName = self.getMouse().appModule.appName
 				# If the files path does not exist, create it now.
 				if not os.path.exists(GCMousePositions):
 					os.mkdir(GCMousePositions)
