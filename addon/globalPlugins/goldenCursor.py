@@ -3,7 +3,7 @@
 # Copyright (C) 2015-2022
 # Version 6.1.1
 # License GNU GPL
-# Date: 04/25/2022
+# Date: 05/05/2022
 # team work: author: salah atair, translation and keycommands are made by wafeeq taher
 # Additional tweaking done by Joseph Lee and contributors, resetting version to 1.0.
 
@@ -358,6 +358,11 @@ class PositionsList(wx.Dialog):
 		self.Destroy()
 
 
+def disableInSecureMode(cls):
+	return globalPluginHandler.GlobalPlugin if globalVars.appArgs.secure else cls
+
+
+@disableInSecureMode
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	scriptCategory = _("Golden Cursor")
 
