@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2021-07-28 17:18+0200\n"
+"PO-Revision-Date: 2022-04-23 11:34+0200\n"
 "Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: hr <LL@li.org>\n"
 "Language: hr\n"
@@ -19,7 +19,7 @@ msgstr ""
 "X-Generator: Poedit 3.0\n"
 
 msgid "left click"
-msgstr ""
+msgstr "lijevi klik"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -42,7 +42,7 @@ msgstr "&Preimenuj"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&Dodaj prečac"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -70,7 +70,7 @@ msgstr "Pozicija y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "Prečac"
 
 msgid "&X position"
 msgstr "Pozicija &x"
@@ -100,10 +100,10 @@ msgstr "Greška"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Upiši ulaznu gestu:"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "Prečac je uspješno dodan"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
