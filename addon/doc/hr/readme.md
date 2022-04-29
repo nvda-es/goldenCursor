@@ -2,24 +2,24 @@
 
 * Autor: Salah Atair, Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA kompatibilnost: 2021.3 i novije verzije
 
 Ovaj dodatak dozvoljava pomicati strelicu miša koristeći tipkovnicu i
 spremanje pozicije miša za programe.
 
 ## Tipkovnički prečaci
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Kontrol+NVDA+L: pregled spremljenih pozicija miša za aplikaciju, ako ih
+  ima. Također možeš dodijeliti geste tim pozicijama u ovom dijaloškom
+  okviru. Pritiskom na dodijeljenu gestu, izvršit će se lijevi klik u
+  spremljenoj poziciji.
 * Šift+NVDA+l: spremi oznaku ili vrijednost za trenutačnu poziciju miša u
   trenutačno fokusiranoj aplikaciji.
 * Windows+NVDA+C: promijeni jedinicu pomicanja miša.
 * Windows+NVDA+R: promijeni ograničenje pomicanja miša.
 * Windows+NVDA+S: uključi ili isključi izvještavanje o poziciji miša u
   pikselima.
-* Windows+NVDA+J: premjesti poziciju miša na određeni položaj x y.
+* Windows+NVDA+J: premjesti poziciju miša na određenu x i y poziciju.
 * Windows+NVDA+P: izvijesti o poziciji miša.
 * Windows+NVDA+M: uključi ili isključi pomicanje miša strelicama.
 * Windows+NVDA+tipke strelica (ili samo tipke strelica, ako je uključeno
@@ -42,17 +42,17 @@ pod kategorijom „Zlatni kursor”.
 * Tijekom brisanja spremljenih pozicija, ako više nema spremljenih pozicija,
   uklonit će se pozicije za aplikaciju.
 
-## Version 6.1
+## Verzija 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Zahtijeva NVDA 2021.3 ili noviju verziju.
+* Sada možeš dodijeliti prečace za spremljene pozicije iz popisa
+  pozicija. Kad pritisneš prečac izvršit će se lijevi klik za poziciju.
 
-## Version 5.0
+## Verzija 5.0
 
-* Modernized add-on source code to make it compatible with NVDA 2021.1.
-* Resolved many coding style issues and potential bugs with Flake8.
+* Moderniziran izvorni kod dodatka kako bi bio kompatibilan s NVDA 2021.1.
+* Riješeno mnogo problema sa stilom kodiranja i potencijalnih grešaka s
+  Flake8.
 
 ## Verzija 4.0
 
@@ -109,8 +109,8 @@ pod kategorijom „Zlatni kursor”.
   korištenja tipki sa strelicama gore ili dolje.
 * Dijaloški okvir koji se prikazuje tijekom spremanja trenutne pozicije miša
   sada prikazuje koordinate za trenutnu lokaciju miša.
-* When saving positions, resolved an issue where NVDA may play error tones
-  if the positions folder does not exist.
+* Tijekom spremanja pozicija, ispravljena je greška gdje je NVDA ponekad
+  reproducirao zvukove pogreške ako mapa pozicija ne postoji.
 
 ## Verzija 1.4
 
