@@ -264,6 +264,16 @@ class PositionsList(wx.Dialog):
 		y = list[1]
 		shortCut = str.split(":")[1]
 		shortCut = shortCut.replace("control", "CONTROL")
+		if shortCut in [
+			"tab", "shift+tab", "upArrow", "downArrow", "leftArrow", "rightArrow", "home", "end", "escape",
+			"pageUp", "pageDown", ",", "numpadEnter", "space", "enter"]:
+			gui.messageBox(
+				# Translators: Message displayde if shortCut is not valid.
+				_("This shortCut is not valid, choose another one please"),
+				# Translators: Title of message box.
+				_("Information"), wx.OK | wx.ICON_INFORMATION
+			)
+			return
 		for k, v in self.positions.items():
 			if "," + shortCut in v:
 				newV = v.replace("," + shortCut, "")
