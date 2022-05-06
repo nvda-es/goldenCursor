@@ -101,6 +101,14 @@ msgstr "Грешка"
 msgid "Enter input gesture:"
 msgstr "Въведете жест на въвеждане:"
 
+#. Translators: Message displayde if shortCut is not valid.
+msgid "This shortCut is not valid, choose another one please"
+msgstr ""
+
+#. Translators: Title of message box.
+msgid "Information"
+msgstr ""
+
 msgid "Shortcut added successfully"
 msgstr "Прекият път е добавен успешно"
 
@@ -194,7 +202,7 @@ msgstr ""
 msgid "Report new mouse coordinates on"
 msgstr "Докладването на новите координати на мишката е включено"
 
-#. Translators: reported when new mouse coordinate announcement is off.
+#. Translators: reported when new mouse coordinate announcement is on.
 msgid "Report new mouse coordinates off"
 msgstr "Докладването на новите координати на мишката е изключено"
 

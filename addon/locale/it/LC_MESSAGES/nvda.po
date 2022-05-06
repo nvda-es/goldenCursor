@@ -102,6 +102,14 @@ msgstr "Errore"
 msgid "Enter input gesture:"
 msgstr ""
 
+#. Translators: Message displayde if shortCut is not valid.
+msgid "This shortCut is not valid, choose another one please"
+msgstr ""
+
+#. Translators: Title of message box.
+msgid "Information"
+msgstr ""
+
 msgid "Shortcut added successfully"
 msgstr ""
 
@@ -196,7 +204,7 @@ msgstr ""
 msgid "Report new mouse coordinates on"
 msgstr "Lettura nuove corrdinate mouse attivata"
 
-#. Translators: reported when new mouse coordinate announcement is off.
+#. Translators: reported when new mouse coordinate announcement is on.
 msgid "Report new mouse coordinates off"
 msgstr "Lettura nuove corrdinate mouse disattivata"
 
