@@ -102,6 +102,14 @@ msgstr "خطا"
 msgid "Enter input gesture:"
 msgstr "فرمان را وارد کنید:"
 
+#. Translators: Message displayde if shortCut is not valid.
+msgid "This shortCut is not valid, choose another one please"
+msgstr ""
+
+#. Translators: Title of message box.
+msgid "Information"
+msgstr ""
+
 msgid "Shortcut added successfully"
 msgstr "میانبر با موفقیت افزوده شد"
 
@@ -188,7 +196,7 @@ msgstr "اعلامِ مختصات را هنگامِ حرکت موس به پیک�
 msgid "Report new mouse coordinates on"
 msgstr "اعلامِ مختصاتِ جدیدِ موس، روشن"
 
-#. Translators: reported when new mouse coordinate announcement is off.
+#. Translators: reported when new mouse coordinate announcement is on.
 msgid "Report new mouse coordinates off"
 msgstr "اعلامِ مختصاتِ جدیدِ موس، خاموش"
 

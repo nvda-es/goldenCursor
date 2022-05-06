@@ -99,6 +99,14 @@ msgstr "오류"
 msgid "Enter input gesture:"
 msgstr ""
 
+#. Translators: Message displayde if shortCut is not valid.
+msgid "This shortCut is not valid, choose another one please"
+msgstr ""
+
+#. Translators: Title of message box.
+msgid "Information"
+msgstr ""
+
 msgid "Shortcut added successfully"
 msgstr ""
 
@@ -182,7 +190,7 @@ msgstr "마우스 위치 좌표 알림을 설정합니다"
 msgid "Report new mouse coordinates on"
 msgstr "마우스 위치 자표 알림"
 
-#. Translators: reported when new mouse coordinate announcement is off.
+#. Translators: reported when new mouse coordinate announcement is on.
 msgid "Report new mouse coordinates off"
 msgstr "마우스 위치 좌표 알림 해제"
 
