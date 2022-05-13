@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2022-02-25 09:43+0100\n"
+"PO-Revision-Date: 2022-05-06 09:41+0200\n"
 "Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: NVDA add-ons translation team <oprisniki@gmail.com>\n"
 "Language: es\n"
@@ -103,11 +103,11 @@ msgstr "Pulsa el atajo:"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Este atajo no es válido. Por favor, elige otro"
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Información"
 
 msgid "Shortcut added successfully"
 msgstr "Atajo añadido con éxito"
