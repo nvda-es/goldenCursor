@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2022-02-25 09:48+0200\n"
+"PO-Revision-Date: 2022-05-06 10:18+0300\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: \n"
 "Language: bg\n"
@@ -103,11 +103,11 @@ msgstr "Въведете жест на въвеждане:"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Този пряк път не е валиден. Моля, изберете друг."
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
 msgid "Shortcut added successfully"
 msgstr "Прекият път е добавен успешно"

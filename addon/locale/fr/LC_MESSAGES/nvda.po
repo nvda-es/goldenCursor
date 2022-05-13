@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor Version 2.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2022-02-25 09:54+0100\n"
+"PO-Revision-Date: 2022-05-06 09:25+0200\n"
 "Last-Translator: Michel Such <michelsuch93@gmail.com>\n"
 "Language-Team: \n"
 "Language: fr\n"
@@ -103,11 +103,11 @@ msgstr "Entrez un geste de commande :"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Ce raccourci n'est pas valide, veuillez en choisir un autre."
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 msgid "Shortcut added successfully"
 msgstr "Raccourci ajouté avec succès"
@@ -277,4 +277,4 @@ msgid ""
 "details please visit the addon guide help."
 msgstr ""
 "Permet de contrôler les mouvements de la souris avec le clavier. Pour plus "
-"de détails veuillez visiter l'aide du module."
+"de détails veuillez visiter l'aide de l'extension."
