@@ -2,17 +2,17 @@
 
 * Yazarlar: salah atair, Joseph Lee
 * İndir [kararlı sürüm][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA uyumluluğu: 2021.3 ve sonrası
 
 Bu eklenti, klavyeyi kullanarak fareyi hareket ettirmenize ve uygulamalar
 için fare konumlarını kaydetmenizi sağlar.
 
 ## Kısayol Tuşları
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Control+NVDA+L: Varsa, bir uygulama için kaydedilmiş fare konumlarını
+  görüntüleyin. Bu iletişim kutusundan bu konumlara hareketler de
+  atayabilirsiniz. Atanan harekete basıldığında, kaydedilen konumda bir sol
+  tıklama gerçekleştirilecektir.
 * Shift+NVDA+l: o anda odaklanılan uygulamada geçerli fare konumu için bir
   etiket veya etiket kayded.
 * Windows+NVDA+C: fare hareket birimini değiştir.
@@ -40,12 +40,12 @@ not, bu hareketler NVDA Girdi Hareketleri iletişim  kutuşunda bulunan Altın
 * Kaydedilen pozisyonlar silinirken, kayıtlı pozisyon kalmamışsa, uygulama
   için pozisyonlar silinecektir.
 
-## Version 6.1
+## Sürüm 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* NVDA 2021.3 veya sonraki sürümünü gerektirir.
+* Artık pozisyonlar listesinden kayıtlı pozisyonlar için kısayollar
+  atayabilirsiniz. Bir kısayola basıldığında, konum için sol tıklama
+  gerçekleştirilecektir.
 
 ## Sürüm 5.0
 
