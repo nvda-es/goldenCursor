@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-12-22 07:00+1000\n"
-"PO-Revision-Date: 2022-02-27 16:52+0300\n"
+"PO-Revision-Date: 2022-05-13 16:06+0300\n"
 "Last-Translator: Ömer Yılmaz <yilmaz.omer2002@gmail.com>\n"
 "Language-Team: turkish\n"
 "Language: tr_TR\n"
@@ -35,7 +35,7 @@ msgstr "&Kayıtlı fare konumları"
 
 #. Translators: the button to jump to the selected position.
 msgid "&Jump"
-msgstr "Atla"
+msgstr "&Atla"
 
 #. Translators: the button to rename a mouse position.
 msgid "&Rename"
@@ -103,11 +103,11 @@ msgstr "Girdi hareketini girin:"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Bu kısayol geçerli değil, lütfen başka bir tane seçin"
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Bilgi"
 
 msgid "Shortcut added successfully"
 msgstr "Kısayol başarıyla eklendi"
