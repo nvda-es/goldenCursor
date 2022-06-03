@@ -2,17 +2,17 @@
 
 * Autorzy: salah atair, Joseph Lee
 * Pobierz [wersja stabilna][1]
-* NVDA compatibility: 2021.3 and beyond
+* Zgodność z NVDA: 2021.3 i później
 
 Ten dodatek umożliwia ruszanie myszą za pomocą klawiatury i zapisywanie
 pozycji myszy dla danej aplikacji.
 
 ## Polecenia klawiszowe
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Control+NVDA+L: wyświetlanie zapisanych pozycji myszy dla aplikacji, jeśli
+  taka istnieje. W tym oknie dialogowym można również przypisać gesty do
+  tych pozycji. Po naciśnięciu przypisanego gestu zostanie wykonane
+  kliknięcie lewym przyciskiem myszy w zapisanej pozycji.
 * Shift+NVDA+L: Zapisz tag lub oznaczenie dla aktualnej pozycji myszy w
   aktualnie otwartej aplikacji.
 * Windows+NVDA+C: Zmień jednostkę ruchu myszy.
@@ -35,23 +35,24 @@ kategorii Golden Cursor.
   naciskając Windows+Strzałka w gurę.
 * Podczas dzielenia pozycji myszy, nazwy istniejących pozycji powinny zostać
   zmienione.
-* w wersjach 1.x i 2.x formaty pozycji myszy nie są ze sobą zgodne.
+* Formaty pozycji myszy w wersji 1.x i 2.x są niezgodne.
 * Przed wykonywaniem czynności, które wymagają używania klawiszy strzałek,
   należy wyłączyć strzałki myszy.
 * Jeżeli wszystkie zapisane w dodatku pozycje zostaną usunięte, lista
   pozycji dla danej aplikacji zostanie wyczyszczona.
 
-## Version 6.1
+## Wersja 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Wymaga NVDA 2021.3 lub nowszego.
+* Teraz możesz przypisać skróty do zapisanych pozycji z listy stanowisk. Po
+  naciśnięciu skrótu zostanie wykonane kliknięcie lewym przyciskiem myszy
+  dla pozycji.
 
-## Version 5.0
+## Wersja 5.0
 
-* Modernized add-on source code to make it compatible with NVDA 2021.1.
-* Resolved many coding style issues and potential bugs with Flake8.
+* Zmodernizowany dodatkowy kod źródłowy, aby był kompatybilny z NVDA 2021.1.
+* Naprawiono niektóre błędy stylistyczne związane z kodem,  a także
+  naprawiono błędy związane z linterem Flake8.
 
 ## Wersja 4.0
 
@@ -107,8 +108,8 @@ kategorii Golden Cursor.
   współrzędnych x i y oddzielnie lub używając strzałek.
 * Dialog do zapisywania aktualnej pozycji myszy teraz pokazuje współrzędne
   dla aktualnej pozycji myszy.
-* When saving positions, resolved an issue where NVDA may play error tones
-  if the positions folder does not exist.
+* Podczas zapisywania pozycji rozwiązano problem polegający na tym, że NVDA
+  może odtwarzać dźwięki błędów, jeśli folder pozycji nie istnieje.
 
 ## Wersja 1.4
 
