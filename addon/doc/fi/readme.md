@@ -10,8 +10,8 @@ tallentaa hiiren sijainteja sovelluksille.
 ## Näppäinkomennot
 
 * Ctrl+NVDA+L: Näytä sovellukselle tallennetut hiiren sijainnit, jos niitä
-  on. Tästä valintaikkunasta voit myös määrittää syötekomennot kullekin
-  sijainnille. Kun määritettyä syötekomentoa painetaan, tallennetussa
+  on. Tästä valintaikkunasta voit myös määrittää näppäinkomennot kullekin
+  sijainnille. Kun määritettyä näppäinkomentoa painetaan, tallennetussa
   sijainnissa suoritetaan hiiren vasemman painikkeen napsautus.
 * Vaihto+NVDA+L: tallenna tunniste tai selite nykyiselle hiiren sijainnille
   aktiivisessa sovelluksessa.
@@ -26,7 +26,7 @@ tallentaa hiiren sijainteja sovelluksille.
   ovat käytössä): siirrä hiirtä.
 
 Huom: Näiden komentojen uudelleenmäärittäminen on mahdollista
-Syötekomennot-valintaikkunasta Golden Cursor -kategorian alta.
+Näppäinkomennot-valintaikkunasta Golden Cursor -kategorian alta.
 
 ## Huomautuksia
 
