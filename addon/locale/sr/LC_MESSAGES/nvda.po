@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-02-03 07:00+1000\n"
-"PO-Revision-Date: 2022-04-08 19:39+0100\n"
+"PO-Revision-Date: 2022-06-19 04:01+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: \n"
 "Language: sr\n"
@@ -102,11 +102,11 @@ msgstr "Unesite ulaznu komandu:"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Ova prečica nije ispravna, molimo izaberite drugu"
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Informacija"
 
 msgid "Shortcut added successfully"
 msgstr "Prečica uspešno dodata"
