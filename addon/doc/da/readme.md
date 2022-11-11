@@ -2,17 +2,17 @@
 
 * Forfatter: Salah Atair, Joseph Lee
 * Download [stabil version][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA-kompatibilitet: 2021.3 og senere
 
 Denne tilføjelse giver dig mulighed for at flytte musen ved hjælp af et
 tastatur og gemme musepositioner til applikationer.
 
 ## Tastaturkommandoer:
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Ctrl+NVDA+L: Få vist gemte musepositioner for en applikation, hvis
+  musepositioner eksisterer. Du kan også tildele tastetryk til disse
+  positioner fra denne dialog. Når du trykker på det tildelte tastetryk,
+  udføres et venstreklik ved den gemte position.
 * Skift+NVDA+L: Gem et tag eller en etiket for den aktuelle museposition i
   den aktuelt fokuserede applikation.
 * Windows+NVDA+C: Skift musens bevægelsesenhed.
@@ -42,10 +42,9 @@ Bemærk: Disse kommandoer kan ændres ved brug af NVDA-dialogen
 
 ## Version 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Kræver NVDA 2021.3 eller nyere.
+* Nu kan du tildele genveje til gemte positioner fra positionslisten. Når du
+  trykker på en genvej, udføres et venstreklik for positionen.
 
 ## Version 5.0
 
