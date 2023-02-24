@@ -2,7 +2,7 @@
 
 * Tekijät: Salah Atair ja Joseph Lee
 * Lataa [vakaa versio][1]
-* Yhteensopivuus: NVDA 2021.3 ja uudemmat
+* Yhteensopivuus: NVDA 2022.4 ja uudemmat
 
 Tämän lisäosan avulla voit siirtää hiirtä näppäimistöä käyttäen sekä
 tallentaa hiiren sijainteja sovelluksille.
@@ -41,6 +41,11 @@ Näppäinkomennot-valintaikkunasta Golden Cursor -kategorian alta.
   hiirinuolet käytöstä.
 * Mikäli tallennettuja sijainteja ei ole jäljellä niitä poistettaessa,
   sovelluksen sijainnit tyhjennetään.
+
+## Versio 6.2
+
+* Edellyttää NVDA 2022.4:ää tai uudempaa.
+* Yhteensopiva NVDA 2023.1:n kanssa.
 
 ## Versio 6.1
 

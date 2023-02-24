@@ -2,7 +2,7 @@
 
 * Autores: salah atair, Joseph Lee
 * Descargar [versión estable][1]
-* Compatibilidad con NVDA: de 2021.3 en adelante
+* Compatibilidad con NVDA: de 2022.4 en adelante
 
 Este complemento te permite mover el ratón utilizando un teclado y guardar
 las posiciones del ratón para las aplicaciones.
@@ -41,6 +41,11 @@ el menú Preferencias de NVDA en la categoría  Golden Cursor.
   desactiva flechas del ratón.
 * Al eliminar posiciones guardadas, si no quedan más posiciones guardadas,
   se limpiarán las de la aplicación.
+
+## Versión 6.2
+
+* Se requiere NVDA 2022.4 o posterior.
+* Compatible con NVDA 2023.1.
 
 ## Versión 6.1
 

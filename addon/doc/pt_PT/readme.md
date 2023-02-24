@@ -2,7 +2,7 @@
 
 * Autores: salah atair, Joseph Lee
 * Baixar [versão estável] [1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Este extra permite mover o rato usando um teclado e guardar as posições do
 rato para cada aplicação, individualmente.
@@ -40,6 +40,11 @@ comandos do NVDA sob a categoria Cursor Dourado.
   primeiro, as setas do rato.
 * Ao apagar posições guardadas, se não houver quaisquer outras para a mesma
   aplicação, o respectivo ficheiro de posições será excluído.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

@@ -2,7 +2,7 @@
 
 * Auteur : salah atair, Joseph Lee
 * Télécharger [version stable][1]
-* Compatibilité NVDA : 2021.3 et ultérieures
+* NVDA compatibility: 2022.4 and beyond
 
 Cette extension vous permet de déplacer la souris à l'aide du clavier et de
 sauvegarder la position de la souris pour les applications.
@@ -45,6 +45,11 @@ commandes de NVDA sous la catégorie Golden Cursor.
   fléchées, désactivez d'abord les flèches de la souris.
 * Lorsque vous supprimez des positions sauvegardées, s'il n'y a plus de
   positions sauvegardées, les positions de l'application seront effacées.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

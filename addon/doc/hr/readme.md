@@ -2,7 +2,7 @@
 
 * Autor: Salah Atair, Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA kompatibilnost: 2021.3 i novije verzije
+* NVDA compatibility: 2022.4 and beyond
 
 Ovaj dodatak dozvoljava pomicati strelicu miša koristeći tipkovnicu i
 spremanje pozicije miša za programe.
@@ -41,6 +41,11 @@ pod kategorijom „Zlatni kursor”.
   isključi strelice miša.
 * Tijekom brisanja spremljenih pozicija, ako više nema spremljenih pozicija,
   uklonit će se pozicije za aplikaciju.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Verzija 6.1
 

@@ -2,7 +2,7 @@
 
 * Autori: salah atair, Joseph Lee
 * Scarica la [versione stabile][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Questo add-on permette di spostare il mouse con la tastiera e di salvare le
 posizioni del mouse per le applicazioni.
@@ -43,6 +43,11 @@ immissione nel menu preferenze di NVDA alla categoria Golden Cursor.
   disattivare la funzione movimento del mouse tramite tasti freccia.
 * Quando si cancellano le posizioni memorizzate, se non sono rimaste
   posizioni salvate, verranno eliminate le posizioni per l'applicazione.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

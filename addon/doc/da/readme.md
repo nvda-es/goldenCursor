@@ -2,7 +2,7 @@
 
 * Forfatter: Salah Atair, Joseph Lee
 * Download [stabil version][1]
-* NVDA-kompatibilitet: 2021.3 og senere
+* NVDA compatibility: 2022.4 and beyond
 
 Denne tilføjelse giver dig mulighed for at flytte musen ved hjælp af et
 tastatur og gemme musepositioner til applikationer.
@@ -39,6 +39,11 @@ Bemærk: Disse kommandoer kan ændres ved brug af NVDA-dialogen
   slå musepilene fra.
 * Når der slettes gemte positioner, vil alle positioner for den aktuelle
   applikation ryddes, hvis der ikke længere eksistere gemte positioner.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

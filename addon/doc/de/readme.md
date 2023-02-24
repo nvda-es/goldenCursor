@@ -2,7 +2,7 @@
 
 * Autor: Salah Atair, Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA-Kompatibilität: Ab 2021.3
+* NVDA compatibility: 2022.4 and beyond
 
 Diese Erweiterung ermöglicht das Ziehen der Maus mit der Tastatur und das
 Speichern der gewünschten Mauspositionen für die jeweilige Anwendung.
@@ -41,6 +41,11 @@ im Dialog Eingaben in der Kategorie "goldener Cursor" angepasst werden.
   schalten Sie zuerst die Bewegung des Mauszeigers durch Pfeiltasten aus.
 * Wenn beim Löschen gespeicherter Positionen keine gespeicherten Positionen
   mehr vorhanden sind, werden die Positionen für die Anwendung gelöscht.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 
