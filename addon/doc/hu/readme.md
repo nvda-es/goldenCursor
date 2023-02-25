@@ -2,7 +2,7 @@
 
 * Készítők: salah atair, Joseph Lee
 * Letöltés [Stabil verzió][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Ez a kiegészítő lehetővé teszi az egérkurzor mozgatását a billentyűzet
 használatával, ill. elmenthet vele egérkurzor-koordinátákat a különböző
@@ -45,6 +45,11 @@ párbeszédpanelén az Aranykurzor kategóriában.
 * Amennyiben az elmentett egérpozíciók törlése után nem marad adott
   alkalmazáshoz egy egérpozíció sem, az alkalmazáshoz tartozó egérpozíciós
   fájl is törlődik.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

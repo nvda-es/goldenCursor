@@ -2,7 +2,7 @@
 
 * Yazarlar: salah atair, Joseph Lee
 * İndir [kararlı sürüm][1]
-* NVDA uyumluluğu: 2021.3 ve sonrası
+* NVDA compatibility: 2022.4 and beyond
 
 Bu eklenti, klavyeyi kullanarak fareyi hareket ettirmenize ve uygulamalar
 için fare konumlarını kaydetmenizi sağlar.
@@ -39,6 +39,11 @@ not, bu hareketler NVDA Girdi Hareketleri iletişim  kutuşunda bulunan Altın
   kapatmanız gerekir.
 * Kaydedilen pozisyonlar silinirken, kayıtlı pozisyon kalmamışsa, uygulama
   için pozisyonlar silinecektir.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Sürüm 6.1
 

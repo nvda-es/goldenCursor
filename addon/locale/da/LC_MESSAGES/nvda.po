@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2017-02-03 07:00+1000\n"
-"PO-Revision-Date: 2021-08-01 10:10+0200\n"
+"PO-Revision-Date: 2022-11-05 11:44+0100\n"
 "Last-Translator: Nicolai Svendsen <chojiro1990@gmail.com>\n"
 "Language-Team: Dansk NVDA <dansk@nvda.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.2\n"
 
 msgid "left click"
-msgstr ""
+msgstr "Venstre klik"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -41,7 +41,7 @@ msgstr "&Omdøb"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "&Tilføj genvej"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -69,7 +69,7 @@ msgstr "Y-position"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "Genvej"
 
 msgid "&X position"
 msgstr "&X-position"
@@ -99,18 +99,18 @@ msgstr "Fejl"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "Udfør kommando"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "Denne genvej er ikke gyldig. Vælg venligst en anden."
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "Information"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "Genvej tilføjet"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format

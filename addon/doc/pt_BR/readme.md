@@ -2,7 +2,7 @@
 
 * Autor: salah atair, Joseph Lee
 * Baixe a [versão estável][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Este complemento possibilita mover o mouse usando o teclado e salvar
 posições do mouse em aplicativos.
@@ -40,6 +40,11 @@ Nota: Estes gestos podem ser reatribuídos via diálogo Definir Comandos
   setas do mouse primeiro.
 * Ao excluir posições salvas, se não houver posições salvas, as posições do
   aplicativo serão apagadas.
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 

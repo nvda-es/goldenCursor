@@ -2,17 +2,17 @@
 
 * Autores: salah atair, Joseph Lee
 * Descargar [versión de desenvolvemento][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Este complemento permíteche mover o rato usando un teclado e gardar as
 posicións do rato para as aplicacións.
 
 ## Teclas de Ordes
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Control+NVDA+L: ver posicións do rato gardadas para unha aplicación, se
+  hai. Tamén podes asignar xestos a estas posicións dende este diálogo. Ó
+  premer o xesto asignado, realizarase un click esquerdo na posición
+  gardada.
 * Shift+NVDA+l: garda unha tag ou unha etiqueta para a posición do rato
   actual na aplicación enfocada actualmente.
 * Windows+NVDA+C: cambiar a unidade de movemento do rato.
@@ -41,12 +41,16 @@ menú Preferencias do NVDA na categoría Golden Cursor.
 * Ao se borrar posicións gardadas, se non quedan máis posicións gardadas,
   limparanse as da aplicación.
 
-## Version 6.1
+## Version 6.2
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
+
+## Versión 6.1
+
+* Require NVDA 2021.3 ou posterior.
+* Agora, podes asignar atallos a posicións gardadas dende a lista de
+  posicións. Ao premer un atallo, realizarase un click esquerdo na posición.
 
 ## Versión 5.0
 

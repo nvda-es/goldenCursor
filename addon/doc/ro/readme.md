@@ -2,7 +2,7 @@
 
 * Autori: salah atair, Joseph Lee
 * Descarcă [versiunea stabilă][1]
-* NVDA compatibility: 2021.3 and beyond
+* NVDA compatibility: 2022.4 and beyond
 
 Acest supliment îți permite să muți mausul folosind tastatura și să salvezi
 pozițiile mausului pentru aplicații.
@@ -41,6 +41,11 @@ meniul NVDA, preferințe.
   standard, dezactivați mai întâi săgețile maus.
 * Atunci când ștergeți ultima poziție salvată, pozițiile aplicației vor fi
   curățate .
+
+## Version 6.2
+
+* Requires NVDA 2022.4 or later.
+* Compatible with NVDA 2023.1.
 
 ## Version 6.1
 
