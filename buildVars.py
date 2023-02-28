@@ -25,7 +25,7 @@ addon_info = {
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description": _("Allows you to control the mouse movement with the keyboard. for further details please visit the addon guide help."),
 	# version
-	"addon_version": "6.1.2",
+	"addon_version": "6.2",
 	# Author(s)
 	"addon_author": "Salah Atair <atair1978@gmail.com>, Wafeeq Taher, Joseph Lee <joseph.lee22590@gmail.com>, Abdel <abdelkrim.bensaid@gmail.com>, NVDA spanish community <contacto@nvda.es>",
 	# URL for the add-on documentation support
@@ -40,6 +40,12 @@ addon_info = {
 	# and for development releases, use "dev".)
 	# Do not change unless you know what you are doing!
 	"addon_updateChannel": None,
+	# Add-on license such as GPL 2
+	"addon_license": "GPL 2",
+	# URL for the license document the ad-on is licensed under
+	"addon_licenseURL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
+	# URL for the add-on repository where the source code can be found
+	"addon_sourceURL": "https://github.com/nvda-es/goldenCursor",
 }
 
 
