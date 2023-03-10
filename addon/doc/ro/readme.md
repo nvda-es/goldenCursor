@@ -128,6 +128,5 @@ meniul NVDA, preferințe.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
+[1]: https://addons.nvda-project.org/files/get.php?file=goldenCursor
 
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev

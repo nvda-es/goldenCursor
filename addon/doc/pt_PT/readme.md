@@ -130,6 +130,5 @@ comandos do NVDA sob a categoria Cursor Dourado.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
+[1]: https://addons.nvda-project.org/files/get.php?file=goldenCursor
 
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev

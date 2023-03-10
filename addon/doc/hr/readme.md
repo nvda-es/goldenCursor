@@ -2,7 +2,7 @@
 
 * Autor: Salah Atair, Joseph Lee
 * Preuzmi [stabilnu verziju][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA kompatibilnost: 2022.4 i novije verzije
 
 Ovaj dodatak dozvoljava pomicati strelicu miša koristeći tipkovnicu i
 spremanje pozicije miša za programe.
@@ -42,10 +42,10 @@ pod kategorijom „Zlatni kursor”.
 * Tijekom brisanja spremljenih pozicija, ako više nema spremljenih pozicija,
   uklonit će se pozicije za aplikaciju.
 
-## Version 6.2
+## Verzija 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Zahtijeva NVDA verziju 2022.4 ili noviju.
+* Kompatibilno s NVDA čitačem 2023.1.
 
 ## Verzija 6.1
 
@@ -128,6 +128,5 @@ pod kategorijom „Zlatni kursor”.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
+[1]: https://addons.nvda-project.org/files/get.php?file=goldenCursor
 
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev
