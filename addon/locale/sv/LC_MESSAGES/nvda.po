@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the goldenCursor package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: goldenCursor 6.1.2\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2023-03-03 07:00+0000\n"
+"PO-Revision-Date: 2023-04-05 20:36+0200\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.4\n"
+
+msgid "left click"
+msgstr "vänsterklick"
+
+#, python-format
+msgid "Mouse positions for %s"
+msgstr "Muspositioner för %s"
+
+msgid "New mouse position"
+msgstr "Ny musposition"
+
+#. Translators: The label for the list view of the mouse positions in the current application.
+msgid "&Saved mouse positions"
+msgstr "&Sparade muspositioner"
+
+#. Translators: the button to jump to the selected position.
+msgid "&Jump"
+msgstr "&Hoppa"
+
+#. Translators: the button to rename a mouse position.
+msgid "&Rename"
+msgstr "D&öp om"
+
+#. Translators: the button to set  shortcut for mouse a position.
+msgid "&add shortcut"
+msgstr "L&ägg till genväg"
+
+#. Translators: the button to delete the selected mouse position.
+msgid "&Delete"
+msgstr "Ra&dera"
+
+#. Translators: the button to clear all mouse positions for the focused app.
+msgid "C&lear positions"
+msgstr "&Rensa positioner"
+
+#. Translators: The label of a button to close the mouse positions dialog.
+msgid "&Close"
+msgstr "&Stäng"
+
+#. Translators: the column in mouse positions list to identify the position name.
+msgid "Name"
+msgstr "Namn"
+
+#. Translators: the column in mouse positions list to identify the X coordinate.
+msgid "Position X"
+msgstr "Position X"
+
+#. Translators: the column in mouse positions list to identify the Y coordinate.
+msgid "Position Y"
+msgstr "Position Y"
+
+#. Translators: the column in mouse positions list to identify the Shortcut.
+msgid "shortCut"
+msgstr "genväg"
+
+msgid "&X position"
+msgstr "&X position"
+
+msgid "&Y position"
+msgstr "&Y position"
+
+#. Translators: The label of a field to enter a new name for a mouse position/tag.
+msgid "New name"
+msgstr "Nytt namn"
+
+#. Translators: The title of the dialog to rename a mouse position.
+msgid "Rename"
+msgstr "Döp om"
+
+#. Translators: An error displayed when renaming a mouse position
+#. and a tag with the new name already exists.
+msgid ""
+"Another mouse position has the same name as the entered name. Please choose "
+"a different name."
+msgstr ""
+"En annan musposition har samma namn som angetts. Vänligen välj ett annat "
+"namn."
+
+msgid "Error"
+msgstr "Fel"
+
+#. Translators: The prompt to enter a gesture
+msgid "Enter input gesture:"
+msgstr "Ange inmatningsgest:"
+
+#. Translators: Message displayde if shortCut is not valid.
+msgid "This shortCut is not valid, choose another one please"
+msgstr "Denna genväg är inte giltig. Vänligen välj en annan"
+
+#. Translators: Title of message box.
+msgid "Information"
+msgstr "Information"
+
+msgid "Shortcut added successfully"
+msgstr "Genväg har lagts till"
+
+#. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
+#, python-brace-format
+msgid ""
+"Are you sure you want to delete the position named {name}? This cannot be "
+"undone."
+msgstr ""
+"Är du säker på att du vill radera positionen som heter {name}? Detta kan "
+"inte ångras."
+
+#. Translators: The title of the confirmation dialog for deletion of selected position.
+msgid "Delete position"
+msgstr "Radera position"
+
+#. Translators: The confirmation prompt displayed when the user is about to clear positions.
+#, python-brace-format
+msgid ""
+"Are you sure you want to clear mouse positions for the current application "
+"({appName})? This cannot be undone."
+msgstr ""
+"Är du säker på att du vill rensa muspositionerna för den nuvarande "
+"applikationen ({appName})? Detta kan inte ångras."
+
+#. Translators: The title of the confirmation dialog for clearing mouse positions.
+msgid "Clear mouse positions"
+msgstr "Rensa muspositioner"
+
+#. Translators: A dialog message shown when tags for the application is cleared.
+#, python-brace-format
+msgid "All mouse positions for the application {appName} have been deleted."
+msgstr "Alla muspositioner för applikationen {appName} har raderats."
+
+#. Translators: Title of the tag clear confirmation dialog.
+msgid "Mouse positions cleared"
+msgstr "Muspositioner rensade"
+
+#. Translators: This is the label for the Golden Cursor settings category in NVDA Settings screen.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+msgid "Golden Cursor"
+msgstr "Golden Cursor"
+
+#. Translators: input help message for a Golden Cursor command.
+msgid "Opens a dialog listing mouse positions for the current application"
+msgstr "Öppnar en dialog med listan över muspositioner för aktuell applikation"
+
+#. Translators: message presented when no mouse positions are available for the focused app.
+#, python-format
+msgid "No mouse positions for %s."
+msgstr "Inga muspositioner för %s."
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Opens a dialog to label the current mouse position and saves it"
+msgstr "Öppnar en dialog för att namnge nuvarande musposition och sparar den"
+
+#. Translators: edit field label for new mouse position.
+#, python-brace-format
+msgid ""
+"Enter the name for the current mouse position (x: {positionX}, Y: {positionY}"
+msgstr ""
+"Ange namnet för den aktuella muspositionen  (x: {positionX}, Y: {positionY}"
+
+#. Translators: title for save mouse position dialog.
+msgid "Save mouse position"
+msgstr "Spara musposition"
+
+#. Translators: presented when position (tag) has been saved.
+#, python-format
+msgid "Position saved in %s."
+msgstr "Position sparad i %s."
+
+#. Translators: input help message for a Golden Cursor command.
+msgid "Changes mouse movement unit"
+msgstr "Ändrar enheten för musförflyttning"
+
+#. Translators: Input help message for a Golden Cursor add-on command.
+msgid "toggles reporting of mouse coordinates in pixels when mouse moves"
+msgstr "växlar rapportering av muskoordinater i pixlar när musen flyttas"
+
+#. Translators: reported when new mouse coordinate announcement is on.
+msgid "Report new mouse coordinates on"
+msgstr "Rapportera nya muskoordinater på"
+
+#. Translators: reported when new mouse coordinate announcement is on.
+msgid "Report new mouse coordinates off"
+msgstr "Rapportera nya muskoordinater av"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Reports current X and Y mouse position"
+msgstr "Rapporterar nuvarande muspositions X och Y"
+
+#. Translators: input help mode message for a Golden Cursor add-on command.
+msgid "Toggles mouse arrows to move the mouse with the arrow keys"
+msgstr "Växlar förflyttning av musen med piltangenterna"
+
+#. Translators: presented when toggling mouse arrows feature.
+msgid "Mouse arrows on"
+msgstr "Muspilar på"
+
+#. Translators: presented when toggling mouse arrows feature.
+msgid "Mouse arrows off"
+msgstr "Muspilar av"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Moves the Mouse pointer to the right"
+msgstr "Flyttar muspekaren åt höger"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Moves the Mouse pointer to the left"
+msgstr "Flyttar muspekaren åt vänster"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Moves the Mouse pointer down"
+msgstr "Flyttar muspekaren nedåt"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Moves the Mouse pointer up"
+msgstr "Flyttar muspekaren uppåt"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid ""
+"Opens a dialog to enter the X and Y coordinates for the mouse to move to"
+msgstr ""
+"Öppnar en dialog för att ange X och Y koordinaterna dit muspekaren ska "
+"flyttas"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid ""
+"Toggles mouse movement restriction between current application and "
+"unrestricted"
+msgstr ""
+"Växlar begränsning av musrörelser mellan nuvarande applikation och obegränsat"
+
+#. Translators: presented when mouse movement is restricted to current application.
+msgid "Mouse movement restricted to current application"
+msgstr "Musförflyttningar begränsade till nuvarande applikation"
+
+#. Translators: presented when mouse movement is unrestricted.
+msgid "Mouse movement unrestricted"
+msgstr "Musrörelser obegränsade"
+
+#. Translators: This is the label for a checkbox in the
+#. Golden Cursor settings dialog.
+msgid "&Announce new mouse coordinates when mouse moves"
+msgstr "&Meddela de nya koordinaterna när musen flyttas"
+
+#. Translators: The label for a setting in Golden Cursor settings dialog to change mouse movement units.
+msgid "Mouse movement &unit (in pixels)"
+msgstr "M&usförflyttningsenhet (i pixlar)"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Allows you to control the mouse movement with the keyboard. for further "
+"details please visit the addon guide help."
+msgstr ""
+"Låter dig kontrollera musen med tangentbordet. För ytterligare detaljer "
+"besök tilläggsguidens hjälp."
