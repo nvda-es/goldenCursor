@@ -126,5 +126,4 @@ Näppäinkomennot-valintaikkunasta Golden Cursor -kategorian alta.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=goldenCursor
-
+[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor
