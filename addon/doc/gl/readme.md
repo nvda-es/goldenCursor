@@ -2,7 +2,7 @@
 
 * Autores: salah atair, Joseph Lee
 * Descargar [versión de desenvolvemento][1]
-* NVDA compatibility: 2022.4 and beyond
+* Compatibilidade con NVDA: 2022.4 en diante
 
 Este complemento permíteche mover o rato usando un teclado e gardar as
 posicións do rato para as aplicacións.
@@ -41,10 +41,10 @@ menú Preferencias do NVDA na categoría Golden Cursor.
 * Ao se borrar posicións gardadas, se non quedan máis posicións gardadas,
   limparanse as da aplicación.
 
-## Version 6.2
+## Versión 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Require NVDA 2022.4 ou posterior.
+* Compatible con NVDA 2023.1.
 
 ## Versión 6.1
 
