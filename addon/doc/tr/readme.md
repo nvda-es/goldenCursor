@@ -2,7 +2,7 @@
 
 * Yazarlar: salah atair, Joseph Lee
 * İndir [kararlı sürüm][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA uyumluluğu: 2022.4 ve sonrası
 
 Bu eklenti, klavyeyi kullanarak fareyi hareket ettirmenize ve uygulamalar
 için fare konumlarını kaydetmenizi sağlar.
@@ -24,26 +24,26 @@ için fare konumlarını kaydetmenizi sağlar.
 * Windows+NVDA+ok tuşları (veya fare okları açıksa sadece ok tuşları):
   fareyi hareket ettirin.
 
-not, bu hareketler NVDA Girdi Hareketleri iletişim  kutuşunda bulunan Altın
+Not, bu hareketler NVDA Girdi Hareketleri iletişim  kutusunda bulunan Altın
 İmleç kategorisinden yeniden atanabilir.
 
 ## Notlar
 
 * Konumları (etiketleri) paylaşırken, her bir taraf aynı ekran çözünürlüğünü
-  kullanmalıdır. 
+  kullanmalıdır.
 * Maksimum uyumluluk için Windows yukarı ok tuşuna basarak pencereleri
-  büyütmelisiniz. 
-* Konumları paylaşırken, mevcut konum etiketleri yeniden adlandırılmalıdır. 
-* Sürüm 1.x ve 2.x fare konumu biçimleri uyumsuzdur. 
+  büyütmelisiniz.
+* Konumları paylaşırken, mevcut konum etiketleri yeniden adlandırılmalıdır.
+* Sürüm 1.x ve 2.x fare konumu biçimleri uyumsuzdur.
 * Ok tuşlarının kullanılmasının gerektiği işlemlerde önce fare oklarını
   kapatmanız gerekir.
 * Kaydedilen pozisyonlar silinirken, kayıtlı pozisyon kalmamışsa, uygulama
   için pozisyonlar silinecektir.
 
-## Version 6.2
+## Sürüm 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* NVDA 2022.4 veya sonraki sürümünü gerektirir.
+* NVDA 2023.1 ile uyumludur.
 
 ## Sürüm 6.1
 
@@ -80,7 +80,7 @@ not, bu hareketler NVDA Girdi Hareketleri iletişim  kutuşunda bulunan Altın
 ## Sürüm 2.1
 
 * Etiket adını silmeye çalışırken sabit unicode kod çözme hatası düzeltildi.
-* eklentiyle ilgili birden fazla iletişim kutusu açılabilme sorunu
+* Eklentiyle ilgili birden fazla iletişim kutusu açılabilme sorunu
   düzeltildi.
 * Fare konumları listesi ve konum atlama iletişim kutularıyla ilgili
   iyileştirmeler.
@@ -124,7 +124,7 @@ not, bu hareketler NVDA Girdi Hareketleri iletişim  kutuşunda bulunan Altın
 
 ## Version 1.0
 
-* İlk sürüm
+* İlk sürüm.
 
 [[!tag stable dev]]
 
