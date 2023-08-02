@@ -131,6 +131,4 @@ Nota: Estes gestos podem ser reatribuídos via diálogo Definir Comandos
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
-
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev
+[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor

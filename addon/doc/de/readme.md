@@ -2,7 +2,7 @@
 
 * Autor: Salah Atair, Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA-Kompatibilität: 2022.4 oder neuer
 
 Diese Erweiterung ermöglicht das Ziehen der Maus mit der Tastatur und das
 Speichern der gewünschten Mauspositionen für die jeweilige Anwendung.
@@ -44,8 +44,8 @@ im Dialog Eingaben in der Kategorie "goldener Cursor" angepasst werden.
 
 ## Version 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* NVDA 2022.4 oder neuer wird benötigt.
+* Kompatibel mit NVDA 2023.1.
 
 ## Version 6.1
 
@@ -136,6 +136,4 @@ im Dialog Eingaben in der Kategorie "goldener Cursor" angepasst werden.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
-
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev
+[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor

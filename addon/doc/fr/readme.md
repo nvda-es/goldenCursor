@@ -2,7 +2,7 @@
 
 * Auteur : salah atair, Joseph Lee
 * Télécharger [version stable][1]
-* NVDA compatibility: 2022.4 and beyond
+* Compatibilité NVDA : 2022.4 et au-delà
 
 Cette extension vous permet de déplacer la souris à l'aide du clavier et de
 sauvegarder la position de la souris pour les applications.
@@ -48,8 +48,8 @@ commandes de NVDA sous la catégorie Golden Cursor.
 
 ## Version 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Nécessite NVDA 2022.4 ou ultérieures.
+* Compatible avec NVDA 2023.1.
 
 ## Version 6.1
 
@@ -143,6 +143,4 @@ commandes de NVDA sous la catégorie Golden Cursor.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
-
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev
+[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor

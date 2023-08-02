@@ -2,7 +2,7 @@
 
 * Autorzy: salah atair, Joseph Lee
 * Pobierz [wersja stabilna][1]
-* NVDA compatibility: 2022.4 and beyond
+* Zgodność z NVDA: 2022.4 i nowsze
 
 Ten dodatek umożliwia ruszanie myszą za pomocą klawiatury i zapisywanie
 pozycji myszy dla danej aplikacji.
@@ -41,10 +41,10 @@ kategorii Golden Cursor.
 * Jeżeli wszystkie zapisane w dodatku pozycje zostaną usunięte, lista
   pozycji dla danej aplikacji zostanie wyczyszczona.
 
-## Version 6.2
+## Wersja 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Wymaga NVDA 2022.4 lub nowszego.
+* Kompatybilny z NVDA 2023.1.
 
 ## Wersja 6.1
 
@@ -127,6 +127,4 @@ kategorii Golden Cursor.
 
 [[!tag stable dev]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=gc
-
-[2]: https://addons.nvda-project.org/files/get.php?file=gc-dev
+[1]: https://www.nvaccess.org/addonStore/legacy?file=goldenCursor
