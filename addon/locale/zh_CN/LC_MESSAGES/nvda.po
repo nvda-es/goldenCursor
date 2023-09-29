@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 3.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
 "POT-Creation-Date: 2021-03-19 14:31+0800\n"
-"PO-Revision-Date: 2021-07-26 21:15+0800\n"
+"PO-Revision-Date: 2023-09-28 15:15+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,10 +16,10 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.3.2\n"
 
 msgid "left click"
-msgstr ""
+msgstr "左键单击"
 
 #, python-format
 msgid "Mouse positions for %s"
@@ -42,7 +42,7 @@ msgstr "重命名(&R)"
 
 #. Translators: the button to set  shortcut for mouse a position.
 msgid "&add shortcut"
-msgstr ""
+msgstr "添加快捷键(&A)"
 
 #. Translators: the button to delete the selected mouse position.
 msgid "&Delete"
@@ -70,7 +70,7 @@ msgstr "位置 Y"
 
 #. Translators: the column in mouse positions list to identify the Shortcut.
 msgid "shortCut"
-msgstr ""
+msgstr "快捷键"
 
 msgid "&X position"
 msgstr "横坐标 (&X)"
@@ -98,18 +98,18 @@ msgstr "错误"
 
 #. Translators: The prompt to enter a gesture
 msgid "Enter input gesture:"
-msgstr ""
+msgstr "按下要设置的快捷键或手势："
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "该快捷键不可用，请更换其他的快捷键"
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "信息"
 
 msgid "Shortcut added successfully"
-msgstr ""
+msgstr "快捷键添加成功"
 
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
@@ -156,7 +156,7 @@ msgstr "打开显示当前应用程序鼠标位置的对话框"
 #. Translators: message presented when no mouse positions are available for the focused app.
 #, python-format
 msgid "No mouse positions for %s."
-msgstr "%s 没有已保存的鼠标位置"
+msgstr "%s 没有已保存的鼠标位置。"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Opens a dialog to label the current mouse position and saves it"
@@ -179,7 +179,7 @@ msgstr "位置保存在 %s."
 
 #. Translators: input help message for a Golden Cursor command.
 msgid "Changes mouse movement unit"
-msgstr "更改每次移动鼠标时的单位。"
+msgstr "更改鼠标移动单位"
 
 #. Translators: Input help message for a Golden Cursor add-on command.
 msgid "toggles reporting of mouse coordinates in pixels when mouse moves"
@@ -195,7 +195,7 @@ msgstr "不读鼠标位置"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Reports current X and Y mouse position"
-msgstr "读出当前鼠标的横纵坐标位置。"
+msgstr "读出当前鼠标的横纵坐标位置"
 
 #. Translators: input help mode message for a Golden Cursor add-on command.
 msgid "Toggles mouse arrows to move the mouse with the arrow keys"
@@ -228,13 +228,13 @@ msgstr "向上移动鼠标指针"
 #. Translators: Input help message for a Golden Cursor command.
 msgid ""
 "Opens a dialog to enter the X and Y coordinates for the mouse to move to"
-msgstr "打开跳转鼠标位置的对话框。"
+msgstr "打开跳转鼠标位置的对话框"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid ""
 "Toggles mouse movement restriction between current application and "
 "unrestricted"
-msgstr "在当前应用和无限制之间切换鼠标限制区域。"
+msgstr "在当前应用和无限制之间切换限制鼠标移动的区域"
 
 #. Translators: presented when mouse movement is restricted to current application.
 msgid "Mouse movement restricted to current application"
