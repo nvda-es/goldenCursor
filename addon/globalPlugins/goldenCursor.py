@@ -24,8 +24,10 @@ import mouseHandler
 import ui
 import api
 import winUser
+import versionInfo
 import addonHandler
 addonHandler.initTranslation()
+speakOnDemand = {"speakOnDemand": True} if versionInfo.version_year >= 2024 else {}
 
 # Each global constant is prefixed with "GC".
 
@@ -427,7 +429,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: input help message for a Golden Cursor command.
 		description=_("Opens a dialog listing mouse positions for the current application"),
-		gesture="kb:nvda+control+l"
+		gesture="kb:nvda+control+l",
+		**speakOnDemand
 	)
 	def script_mousePositionsList(self, gesture):
 		# Don't even think about opening this dialog if positions list does not exist.
@@ -448,7 +451,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Opens a dialog to label the current mouse position and saves it"),
-		gesture="kb:nvda+shift+l"
+		gesture="kb:nvda+shift+l",
+		**speakOnDemand
 	)
 	def script_saveMousePosition(self, gesture):
 		appName = api.getFocusObject().appModule.appName
@@ -483,7 +487,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: input help message for a Golden Cursor command.
 		description=_("Changes mouse movement unit"),
-		gesture="kb:nvda+windows+c"
+		gesture="kb:nvda+windows+c",
+		**speakOnDemand
 	)
 	def script_mouseMovementChange(self, gesture):
 		pixelUnits = (1, 5, 10, 20, 50, 100)
@@ -504,7 +509,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor add-on command.
 		description=_("toggles reporting of mouse coordinates in pixels when mouse moves"),
-		gesture="kb:nvda+windows+s"
+		gesture="kb:nvda+windows+s",
+		**speakOnDemand
 	)
 	def script_toggleSpeakPixels(self, gesture):
 		sayPixel = config.conf["goldenCursor"]["reportNewMouseCoordinates"]
@@ -520,7 +526,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Reports current X and Y mouse position"),
-		gesture="kb:nvda+windows+p"
+		gesture="kb:nvda+windows+p",
+		**speakOnDemand
 	)
 	def script_sayPosition(self, gesture):
 		reportMousePosition()
@@ -528,7 +535,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: input help mode message for a Golden Cursor add-on command.
 		description=_("Toggles mouse arrows to move the mouse with the arrow keys"),
-		gesture="kb:nvda+windows+m"
+		gesture="kb:nvda+windows+m",
+		**speakOnDemand
 	)
 	def script_toggleMouseArrows(self, gesture):
 		self.mouseArrows = not self.mouseArrows
@@ -595,7 +603,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Toggles mouse movement restriction between current application and unrestricted"),
-		gesture="kb:nvda+windows+r"
+		gesture="kb:nvda+windows+r",
+		**speakOnDemand
 	)
 	def script_toggleMouseRestriction(self, gesture):
 		self.getAppRestriction = self.getMouse()
