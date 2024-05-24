@@ -2,7 +2,7 @@
 
 * Forfatter: Salah Atair, Joseph Lee
 * Download [stabil version][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 
 Denne tilføjelse giver dig mulighed for at flytte musen ved hjælp af et
 tastatur og gemme musepositioner til applikationer.

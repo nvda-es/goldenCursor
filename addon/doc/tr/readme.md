@@ -2,7 +2,7 @@
 
 * Yazarlar: salah atair, Joseph Lee
 * İndir [kararlı sürüm][1]
-* NVDA uyumluluğu: 2022.4 ve sonrası
+* NVDA uyumluluğu: 2023.3.4 ve sonrası
 
 Bu eklenti, klavyeyi kullanarak fareyi hareket ettirmenize ve uygulamalar
 için fare konumlarını kaydetmenizi sağlar.

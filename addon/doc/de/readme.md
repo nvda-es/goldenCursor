@@ -2,7 +2,7 @@
 
 * Autor: Salah Atair, Joseph Lee
 * [Stabile Version herunterladen][1]
-* NVDA-Kompatibilität: 2022.4 oder neuer
+* NVDA compatibility: 2023.3.4 and beyond
 
 Diese Erweiterung ermöglicht das Ziehen der Maus mit der Tastatur und das
 Speichern der gewünschten Mauspositionen für die jeweilige Anwendung.

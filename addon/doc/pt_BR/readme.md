@@ -2,7 +2,7 @@
 
 * Autor: salah atair, Joseph Lee
 * Baixe a [versão estável][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 
 Este complemento possibilita mover o mouse usando o teclado e salvar
 posições do mouse em aplicativos.

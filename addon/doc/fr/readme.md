@@ -2,7 +2,7 @@
 
 * Auteur : salah atair, Joseph Lee
 * Télécharger [version stable][1]
-* Compatibilité NVDA : 2022.4 et au-delà
+* Compatibilité NVDA : 2023.3.4 et au-delà
 
 Cette extension vous permet de déplacer la souris à l'aide du clavier et de
 sauvegarder la position de la souris pour les applications.

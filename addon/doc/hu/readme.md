@@ -2,7 +2,7 @@
 
 * Készítők: salah atair, Joseph Lee
 * Letöltés [Stabil verzió][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 
 Ez a kiegészítő lehetővé teszi az egérkurzor mozgatását a billentyűzet
 használatával, ill. elmenthet vele egérkurzor-koordinátákat a különböző

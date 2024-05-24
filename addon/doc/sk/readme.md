@@ -2,7 +2,7 @@
 
 * Autori: salah atair, Joseph Lee
 * Stiahnuť [stabilnú verziu][1]
-* NVDA compatibility: 2022.4 and beyond
+* NVDA compatibility: 2023.3.4 and beyond
 
 Umožňuje pohybovať kurzorom myši z klávesnice a uložiť pozície myši pre
 klikanie v aplikáciách.
