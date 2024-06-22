@@ -2,27 +2,27 @@
 
 * Автор: salah atair, Joseph Lee
 * Загрузить [стабильную версию][1]
-* NVDA compatibility: 2023.3.4 and beyond
+* Совместимость с NVDA: 2023.3.4 и выше
 
 Это дополнение позволит перемещать мышь с помощью клавиатуры и сохранять
 позиции мыши для приложений.
 
 ## Комбинации клавиш
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
-* Shift+NVDA+l: save a tag or a label for the current mouse position in the
-  currently focused application.
-* Windows+NVDA+C: change mouse movement unit.
+* Control+NVDA+L: просмотреть сохранённые положения мыши для приложения,
+  если таковые имеются. Вы также можете назначить жесты для этих положений в
+  этом диалоге. При нажатии на назначенный жест сохранённого положения будет
+  выполнен щелчок левой кнопки мыши.
+* Shift+NVDA+l: сохранить тег или метку для текущего положения мыши в
+  текущем приложении в фокусе.
+* Windows+NVDA+C: изменить единицу перемещения мыши.
 * Windows+NVDA+R: переключить ограничение мыши.
 * Windows+NVDA+S: включить или выключить объявления позиций мыши в пикселях.
-* Windows+NVDA+J: move mouse to a specific x and y position.
-* Windows+NVDA+P: report mouse position.
+* Windows+NVDA+J: переместить мышь в определённое положение по осям x и y.
+* Windows+NVDA+P: сообщить положение мыши.
 * Windows+NVDA+M: Включить или выключить стрелки мыши.
-* Windows+NVDA+arrow keys (or just arrow keys if mouse arrows is on): move
-  mouse.
+* Windows+NVDA+стрелки (или просто клавиши стрелок, если включены стрелки
+  мыши): перемещение мыши.
 
 Примечание: эти жесты могут быть переназначены в диалоге жестов ввода в
 категории Golden Cursor .
@@ -35,88 +35,95 @@
   Windows+стрелка вверх.
 * При совместном позиционировании, существующие метки позиций должны быть
   переименованы.
-* Version 1.x and 2.x mouse position formats are incompatible.
-* To perform functions that require use of arrow keys, turn off mouse arrows
-  first.
-* When deleting saved positions, if there are no saved positions left,
-  positions for the application will be cleared.
+* Форматы положения мыши версий 1.x и 2.x несовместимы.
+* Для выполнения функций, требующих использования клавиш стрелок, сначала
+  отключите стрелки мыши.
+* При удалении сохранённых положений, если сохраненных положений не
+  осталось, положения для приложения будут удалены.
 
 ## Версия 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Требуется NVDA 2022.4 и выше.
+* Совместимо с NVDA 2023.1.
 
 ## Версия 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Требуется NVDA 2021.3 и выше.
+* Теперь вы можете назначить горячие клавиши для сохраненных положений из
+  списка. При нажатии на горячую клавишу для положения будет выполнен щелчок
+  левой кнопкой мыши.
 
 ## Версия 5.0
 
-* Modernized add-on source code to make it compatible with NVDA 2021.1.
-* Resolved many coding style issues and potential bugs with Flake8.
+* Обновлен исходный код дополнения, чтобы сделать его совместимым с NVDA
+  2021.1.
+* Устранены многие проблемы со стилем кодирования и потенциальные ошибки с
+  помощью Flake8.
 
 ## Версия 4.0
 
-* Requires NVDA 2019.3 or later.
-* Golden Cursor settings dialog has been replaced by Golden Cursor settings
-  panel.
+* Требуется NVDA 2019.3 и выше.
+* Диалог настроек Golden Cursor было заменено панелью настроек Golden
+  Cursor.
 
 ## Версия 3.3
 
-* Internal changes to support future NVDA releases.
+* Внутренние изменения для поддержки будущих выпусков NVDA.
 
 ## Версия 3.2
 
-* Add-on is compatible with NVDA 2018.3 (wxPython 4).
+* Дополнение совместимо с NVDA 2018.3 (wxPython 4).
 
 ## Версия 3.0
 
-* If using NVDA 2018.2, add-on settings will be found in new multi-category
-  settings screen under "Golden Cursor" category.
+* При использовании NVDA 2018.2 настройки дополнения будут доступны на новом
+  экране настроек для нескольких категорий в категории "Golden Cursor".
 
 ## Версия 2.1
 
-* Fixed unicode decode error when trying to delete tag name.
-* Prevent Multiple Instances When Opening various add-on Dialogs.
-* Improved appearance of mouse positions list and jump to position dialogs.
+* Исправлена ошибка декодирования в юникоде при попытке удалить название
+  тега.
+* Предотвращено Многократное Использование При Открытии различных Диалогов
+  дополнений.
+* Улучшен внешний вид списка положений мыши и диалогов перехода к
+  положениям.
 
 ## Версия 2.0
 
-* Requires NVDA 2017.3 and later.
-* Position file format is incompatible with 1.x versions. If 1.x position
-  format is found, old positions will be migrated to the new format during
-  installation.
-* Added a new Golden Cursor settings dialog in NVDA's Preferences menu to
-  configure mouse movement unit and announcement of mouse positions as mouse
-  moves.
-* Various messages from this add-on has changed.
-* When toggling various settings, toggle tone will no longer be heard.
-* You can now enter mouse arrows mode where you can move the mouse by
-  pressing just arrow keys.
-* Changes to positions list dialog, including new name (now called Mouse
-  Positions) and layout, displaying mouse coordinates for a label, and
-  showing the name of the active app as part of the title.
-* From Mouse Positions dialog, pressing Enter on a saved label will move the
-  mouse to the saved location.
-* When renaming a mouse position, an error dialog will be shown if a label
-  with the same name as the new name exists.
-* When deleting or clearing mouse positions, you must now answer Yes before
-  positions are deleted and/or cleared.
-* Changes to mouse jump feature, including a new name (now called New mouse
-  position) and ability to enter X and Y coordinates separately or by using
-  up or down arrow keys.
-* The dialog shown when saving the current mouse position now shows
-  coordinates for current mouse location.
-* When saving positions, resolved an issue where NVDA may play error tones
-  if the positions folder does not exist.
+* Требуется NVDA 2017.3 и выше.
+* Формат файла положения несовместим с версиями 1.x. Если найден формат
+  положения 1.x, старые положения будут перенесены в новый формат во время
+  установки.
+* Добавлен новый диалог настроек Golden Cursor в меню настроек NVDA для
+  настройки единицы перемещения мыши и объявления положения мыши при её
+  перемещении.
+* Изменились различные сообщения дополнения.
+* При переключении различных настроек звуковой сигнал переключения больше не
+  будет слышен.
+* Теперь вы можете перейти в режим стрелок мыши, в котором вы можете
+  перемещать мышь, нажимая только клавиши стрелок.
+* Изменения в диалоге списка положений, включая новое название (теперь оно
+  называется положениями мыши) и макет, отображение координат мыши для
+  надписи и отображение названия активного приложения в качестве части
+  заголовка.
+* В диалоге "Положение мыши" нажатие клавиши Enter на сохраненной метке
+  приведет к перемещению мыши в сохраненное местоположение.
+* При переименовании положения мыши будет показан диалог с сообщением об
+  ошибке, если существует метка с тем же именем, что и новое имя.
+* При удалении или очистке положений мыши теперь вы должны ответить "Да",
+  прежде чем положения будут удалены и/или очищены.
+* Изменения в функции перемещения мыши, включая новое название (теперь оно
+  называется "Новое положение мыши") и возможность вводить координаты X и Y
+  отдельно или с помощью клавиш стрелок вверх или вниз.
+* В диалоге, отображаемом при сохранении текущего положения мыши, теперь
+  отображаются координаты её текущего положения.
+* При сохранении позиций устранена проблема, из-за которой NVDA может
+  воспроизводить звуковые сигналы ошибки, если папка позиций не существует.
 
 ## Версия 1.4
 
-* Removed win32api dependency to make it compatible with past and future
-  versions of NVDA.
+* Удалена зависимость от win32api, чтобы сделать ее совместимой с
+  предыдущими и будущими версиями NVDA.
 
 ## Версия 1.0
 
