@@ -2,17 +2,17 @@
 
 * Autor: salah atair, Joseph Lee
 * Baixe a [versão estável][1]
-* NVDA compatibility: 2023.3.4 and beyond
+* Compatibilidade com NVDA: 2023.3 e além
 
 Este complemento possibilita mover o mouse usando o teclado e salvar
 posições do mouse em aplicativos.
 
 ## Comandos de teclas
 
-* Control+NVDA+L: view saved mouse positions for an application, if any. You
-  can also assign gestures to these positions from this dialog. When
-  pressing the assigned gesture, a left click will be performed in the saved
-  position.
+* Control+NVDA+L: visualiza as posições salvas do mouse para um aplicativo,
+  se houver. Você também pode atribuir gestos a essas posições a partir
+  dessa caixa de diálogo. Ao pressionar o gesto atribuído, um clique com o
+  botão esquerdo do mouse será executado na posição salva.
 * Shift+NVDA+l: salva uma etiqueta (tag) ou um rótulo para a posição atual
   do mouse no aplicativo atualmente focalizado.
 * Windows+NVDA+C: muda a unidade de movimento do mouse.
@@ -41,17 +41,17 @@ Nota: Estes gestos podem ser reatribuídos via diálogo Definir Comandos
 * Ao excluir posições salvas, se não houver posições salvas, as posições do
   aplicativo serão apagadas.
 
-## Version 6.2
+## Versão 6.2
 
-* Requires NVDA 2022.4 or later.
-* Compatible with NVDA 2023.1.
+* Requer NVDA 2022.4 ou posteriores.
+* Complemento é compatível com o NVDA 2023.1 (wxPython 4).
 
-## Version 6.1
+## Versão 6.1
 
-* Requires NVDA 2021.3 or later.
-* Now, you can assign shortcuts for saved positions from the positions
-  list. When pressing a shortcut, a left click will be performed for the
-  position.
+* Requer NVDA 2021.3 ou posteriores.
+* Agora, você pode atribuir atalhos para posições salvas na lista de
+  posições. Ao pressionar um atalho, um clique com o botão esquerdo do mouse
+  será executado para a posição.
 
 ## Versão 5.0
 
