@@ -40,7 +40,7 @@ jobs:
     - name: building addon
       run: scons && scons pot
 
-    - uses: actions/upload-artifact@v4.6.1
+    - uses: actions/upload-artifact@v4.6.2
       with:
         name: packaged_addon
         path: |
@@ -54,7 +54,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4.2.2
     - name: download releases files
-      uses: actions/download-artifact@v4.1.9
+      uses: actions/download-artifact@v4.2.1
     - name: Display structure of downloaded files
       run: ls -R
     - name: Calculate sha256
