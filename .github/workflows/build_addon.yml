@@ -22,7 +22,7 @@ jobs:
     - run: echo -e "pre-commit\nscons\nmarkdown">requirements.txt
 
     - name: Set up Python
-      uses: actions/setup-python@v5.5.0
+      uses: actions/setup-python@v5.6.0
       with:
         python-version: 3.11
         cache: 'pip'
@@ -54,7 +54,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4.2.2
     - name: download releases files
-      uses: actions/download-artifact@v4.2.1
+      uses: actions/download-artifact@v4.3.0
     - name: Display structure of downloaded files
       run: ls -R
     - name: Calculate sha256
