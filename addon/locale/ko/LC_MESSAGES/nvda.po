@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2018-01-03 20:20-0800\n"
+"PO-Revision-Date: 2025-05-16 03:13-0600\n"
 "Last-Translator: Dong hui Park <hi@aheu.org>\n"
 "Language-Team: \n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.9\n"
+"X-Generator: Poedit 3.6\n"
 
 msgid "left click"
 msgstr ""
@@ -135,7 +135,7 @@ msgid "Clear mouse positions"
 msgstr "마우스 위치 모두 삭제"
 
 #. Translators: A dialog message shown when tags for the application is cleared.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "All mouse positions for the application {appName} have been deleted."
 msgstr "{appName}에 할당된 마우스 위치가 모두 삭제되었습니다."
 
@@ -164,17 +164,17 @@ msgid "Opens a dialog to label the current mouse position and saves it"
 msgstr "현재 마우스 위치 이름을 저장합니다"
 
 #. Translators: edit field label for new mouse position.
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid ""
 "Enter the name for the current mouse position (x: {positionX}, Y: {positionY}"
-msgstr "현재 마우스 위치 (x: {x}, Y: {y} 이름"
+msgstr "현재 마우스 위치 (x: {positionX}, Y: {positionY} 이름"
 
 #. Translators: title for save mouse position dialog.
 msgid "Save mouse position"
 msgstr "마우스 위치 저장"
 
 #. Translators: presented when position (tag) has been saved.
-#, fuzzy, python-format
+#, python-format
 msgid "Position saved in %s."
 msgstr "%s에 위치 저장됨."
 
@@ -256,19 +256,9 @@ msgstr "마우스 이동값 (pixel) (&U)"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Allows you to control the mouse movement with the keyboard. for further "
 "details please visit the addon guide help."
 msgstr ""
 "화살표 키로 마우스 움직임을 제어할 수 있습니다. 자세한 내용은 추가 기능 도움"
 "말을 참조하싶시오."
-
-#~ msgid "&Golden Cursor..."
-#~ msgstr "&Golden Cursor..."
-
-#~ msgid "Golden Cursor add-on settings"
-#~ msgstr "Golden Cursor 추가 기능 설정"
-
-#~ msgid "Golden Cursor Settings"
-#~ msgstr "Golden Cursor 설정"
