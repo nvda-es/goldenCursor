@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: goldenCursor 1.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-03-18 05:37+1000\n"
-"PO-Revision-Date: 2022-03-11 12:51+0330\n"
+"PO-Revision-Date: 2025-05-27 23:49+0330\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation Team <nvda-translations@groups.io>\n"
 "Language: fa\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Bookmarks: -1,-1,-1,-1,-1,-1,-1,5,-1,-1\n"
 
@@ -91,8 +91,8 @@ msgstr "تغییرِ نام"
 #. Translators: An error displayed when renaming a mouse position
 #. and a tag with the new name already exists.
 msgid ""
-"Another mouse position has the same name as the entered name. Please choose "
-"a different name."
+"Another mouse position has the same name as the entered name. Please choose a "
+"different name."
 msgstr "موقعیتِ موسِ دیگری هم‌نام با نامِ واردشده است. لطفا نامِ دیگری انتخاب کنید."
 
 msgid "Error"
@@ -104,11 +104,11 @@ msgstr "فرمان را وارد کنید:"
 
 #. Translators: Message displayde if shortCut is not valid.
 msgid "This shortCut is not valid, choose another one please"
-msgstr ""
+msgstr "این میانبر معتبر نیست. لطفا یکی دیگر انتخاب کنید"
 
 #. Translators: Title of message box.
 msgid "Information"
-msgstr ""
+msgstr "اطلاعات"
 
 msgid "Shortcut added successfully"
 msgstr "میانبر با موفقیت افزوده شد"
@@ -116,11 +116,9 @@ msgstr "میانبر با موفقیت افزوده شد"
 #. Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
 #, python-brace-format
 msgid ""
-"Are you sure you want to delete the position named {name}? This cannot be "
-"undone."
+"Are you sure you want to delete the position named {name}? This cannot be undone."
 msgstr ""
-"آیا مطمينید که میخواهید موقعیتِ {name} را حذف کنید? این کار برگشت‌پذیر نخواهد "
-"بود."
+"آیا مطمينید که میخواهید موقعیتِ {name} را حذف کنید? این کار برگشت‌پذیر نخواهد بود."
 
 #. Translators: The title of the confirmation dialog for deletion of selected position.
 msgid "Delete position"
@@ -132,8 +130,8 @@ msgid ""
 "Are you sure you want to clear mouse positions for the current application "
 "({appName})? This cannot be undone."
 msgstr ""
-"آیا مطمينید که میخواهید موقعیت‌های موسِ برنامه‌ی جاری ({appName}) را حذف کنید? "
-"این کار برگشت‌پذیر نخواهد بود."
+"آیا مطمينید که میخواهید موقعیت‌های موسِ برنامه‌ی جاری ({appName}) را حذف کنید? این "
+"کار برگشت‌پذیر نخواهد بود."
 
 #. Translators: The title of the confirmation dialog for clearing mouse positions.
 msgid "Clear mouse positions"
@@ -146,7 +144,7 @@ msgstr "همه‌ی موقعیت‌های موس برای برنامه‌ی {app
 
 #. Translators: Title of the tag clear confirmation dialog.
 msgid "Mouse positions cleared"
-msgstr "موقعیت‌های موس پاک شدند."
+msgstr "موقعیت‌های موس پاک شدند"
 
 #. Translators: This is the label for the Golden Cursor settings category in NVDA Settings screen.
 #. Add-on summary, usually the user visible name of the addon.
@@ -157,7 +155,7 @@ msgstr "مکان‌نمای طلایی"
 
 #. Translators: input help message for a Golden Cursor command.
 msgid "Opens a dialog listing mouse positions for the current application"
-msgstr "پنجره‌ای را برای فهرست کردنِ موقعیت‌های موس برای برنامه‌ی جاری باز میکند."
+msgstr "پنجره‌ای را برای فهرست کردنِ موقعیت‌های موس برای برنامه‌ی جاری باز میکند"
 
 #. Translators: message presented when no mouse positions are available for the focused app.
 #, python-format
@@ -166,8 +164,7 @@ msgstr "موقعیتِ موس برای %s موجود نیست."
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Opens a dialog to label the current mouse position and saves it"
-msgstr ""
-"پنجره‌ای را برای برچسب گذاشتن روی موقعیتِ جاریِ موس و ذخیره کردنِ آن باز میکند."
+msgstr "پنجره‌ای را برای برچسب گذاشتن روی موقعیتِ جاریِ موس و ذخیره کردنِ آن باز میکند"
 
 #. Translators: edit field label for new mouse position.
 #, python-brace-format
@@ -186,11 +183,11 @@ msgstr "موقعیت در %s ذخیره شد."
 
 #. Translators: input help message for a Golden Cursor command.
 msgid "Changes mouse movement unit"
-msgstr "واحدِ حرکتِ موس را تغییر میدهد."
+msgstr "واحدِ حرکتِ موس را تغییر میدهد"
 
 #. Translators: Input help message for a Golden Cursor add-on command.
 msgid "toggles reporting of mouse coordinates in pixels when mouse moves"
-msgstr "اعلامِ مختصات را هنگامِ حرکت موس به پیکسل فعال یا غیرفعال میکند."
+msgstr "اعلامِ مختصات را هنگامِ حرکت موس به پیکسل فعال یا غیرفعال میکند"
 
 #. Translators: reported when new mouse coordinate announcement is on.
 msgid "Report new mouse coordinates on"
@@ -202,11 +199,11 @@ msgstr "اعلامِ مختصاتِ جدیدِ موس، خاموش"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Reports current X and Y mouse position"
-msgstr "موقعیتِ جاریِ موس را به شکلِ X و Y اعلام میکند."
+msgstr "موقعیتِ جاریِ موس را به شکلِ X و Y اعلام میکند"
 
 #. Translators: input help mode message for a Golden Cursor add-on command.
 msgid "Toggles mouse arrows to move the mouse with the arrow keys"
-msgstr "جهت‌نماهای موس را برای حرکت دادَنِ موس با صفحه‌کلید فعال یا غیرفعال میکند."
+msgstr "جهت‌نماهای موس را برای حرکت دادَنِ موس با صفحه‌کلید فعال یا غیرفعال میکند"
 
 #. Translators: presented when toggling mouse arrows feature.
 msgid "Mouse arrows on"
@@ -218,39 +215,36 @@ msgstr "جهت‌نماهای موس، خاموش"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Moves the Mouse pointer to the right"
-msgstr "نشانگرِ موس را به راست میبَرَد."
+msgstr "نشانگرِ موس را به راست میبَرَد"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Moves the Mouse pointer to the left"
-msgstr "نشانگرِ موس را به چپ میبَرَد."
+msgstr "نشانگرِ موس را به چپ میبَرَد"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Moves the Mouse pointer down"
-msgstr "نشانگرِ موس را به پایین میبَرَد."
+msgstr "نشانگرِ موس را به پایین میبَرَد"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid "Moves the Mouse pointer up"
-msgstr "نشان‌گرِ موس را به بالا میبَرَد."
+msgstr "نشان‌گرِ موس را به بالا میبَرَد"
+
+#. Translators: Input help message for a Golden Cursor command.
+msgid "Opens a dialog to enter the X and Y coordinates for the mouse to move to"
+msgstr "پنجره‌ای را جهتِ ورودِ مختصات X و Y برای بُردنِ موس به نقطه‌ی موردِ نظر باز میکند"
 
 #. Translators: Input help message for a Golden Cursor command.
 msgid ""
-"Opens a dialog to enter the X and Y coordinates for the mouse to move to"
-msgstr ""
-"پنجره‌ای را جهتِ ورودِ مختصات X و Y برای بُردنِ موس به نقطه‌ی موردِ نظر باز میکند."
-
-#. Translators: Input help message for a Golden Cursor command.
-msgid ""
-"Toggles mouse movement restriction between current application and "
-"unrestricted"
-msgstr "محدودیتِ حرکتِ موس را بینِ برنامه‌ی جاری و نامحدود تغییر میدهد."
+"Toggles mouse movement restriction between current application and unrestricted"
+msgstr "محدودیتِ حرکتِ موس را بینِ برنامه‌ی جاری و نامحدود تغییر میدهد"
 
 #. Translators: presented when mouse movement is restricted to current application.
 msgid "Mouse movement restricted to current application"
-msgstr "حرکتِ موس به برنامه‌ی جاری محدود شد."
+msgstr "حرکتِ موس به برنامه‌ی جاری محدود شد"
 
 #. Translators: presented when mouse movement is unrestricted.
 msgid "Mouse movement unrestricted"
-msgstr "حرکتِ موس نامحدود شد."
+msgstr "حرکتِ موس نامحدود شد"
 
 #. Translators: This is the label for a checkbox in the
 #. Golden Cursor settings dialog.
@@ -264,8 +258,8 @@ msgstr "&واحدِ حرکتِ موس به پیکسل"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
-"Allows you to control the mouse movement with the keyboard. for further "
-"details please visit the addon guide help."
+"Allows you to control the mouse movement with the keyboard. for further details "
+"please visit the addon guide help."
 msgstr ""
-"به شما امکان میدهد حرکتِ نشان‌گرِ موس را با جهت‌نماها کنترل کنید. برای جزئیاتِ "
-"بیشتر راهنمای افزونه را ببینید."
+"به شما امکان میدهد حرکتِ نشان‌گرِ موس را با جهت‌نماها کنترل کنید. برای جزئیاتِ بیشتر "
+"راهنمای افزونه را ببینید."
