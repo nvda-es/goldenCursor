@@ -15,7 +15,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Checkout main
-      uses: actions/checkout@v4.2.2
+      uses: actions/checkout@v5.0.0
     - name: Get repository name
       id: getRepoName
       uses: actions/github-script@v7.0.1
