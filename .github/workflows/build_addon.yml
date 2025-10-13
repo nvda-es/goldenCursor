@@ -61,7 +61,7 @@ jobs:
       run: sha256sum packaged_addon/*.nvda-addon >> changelog.md
 
     - name: Release
-      uses: softprops/action-gh-release@v2.3.4
+      uses: softprops/action-gh-release@v2.4.1
       with:
         files: |
           packaged_addon/*.nvda-addon
