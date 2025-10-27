@@ -54,7 +54,7 @@ jobs:
     steps:
     - uses: actions/checkout@v5.0.0
     - name: download releases files
-      uses: actions/download-artifact@v5.0.0
+      uses: actions/download-artifact@v6.0.0
     - name: Display structure of downloaded files
       run: ls -R
     - name: Calculate sha256
