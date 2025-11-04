@@ -24,10 +24,10 @@ import mouseHandler
 import ui
 import api
 import winUser
-import versionInfo
+import buildVersion
 import addonHandler
 addonHandler.initTranslation()
-speakOnDemand = {"speakOnDemand": True} if versionInfo.version_year >= 2024 else {}
+speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year >= 2024 else {}
 
 # Each global constant is prefixed with "GC".
 
