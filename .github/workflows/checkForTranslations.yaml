@@ -32,5 +32,3 @@ jobs:
         git commit -m "Update translations"
         git pull
         git push
-        
-        
