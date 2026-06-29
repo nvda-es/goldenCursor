@@ -26,6 +26,7 @@ import api
 import winUser
 import buildVersion
 import addonHandler
+
 addonHandler.initTranslation()
 speakOnDemand = {"speakOnDemand": True} if buildVersion.version_year >= 2024 else {}
 
@@ -72,6 +73,7 @@ class EnterPositionName(wx.TextEntryDialog):
 	prevent multiple instances of the dialog box that propose to give a name to the current mouse position.
 	This dialog can be opened via the script_saveMousePosition accessible with the nvda+shift+l shortcut.
 	"""
+
 	# The following comes from exit dialog class from GUI package (credit: NV Access and Zahari from Bulgaria).
 	_instance = None
 
@@ -87,6 +89,7 @@ class EnterPositionName(wx.TextEntryDialog):
 			return
 		# Use a weakref so the instance can die.
 		import weakref
+
 		EnterPositionName._instance = weakref.ref(self)
 
 		super(EnterPositionName, self).__init__(*args, **kwargs)
@@ -101,6 +104,7 @@ class PositionsList(wx.Dialog):
 	accessible via the nvda+control+l shortcut.
 	It also prevents multiple instances for these 2 dialogs.
 	"""
+
 	# The following comes from exit dialog class from GUI package (credit: NV Access and Zahari from Bulgaria).
 	_instance = None
 
@@ -116,10 +120,13 @@ class PositionsList(wx.Dialog):
 			return
 		# Use a weakref so the instance can die.
 		import weakref
+
 		PositionsList._instance = weakref.ref(self)
 
 		if appName:
-			super(PositionsList, self).__init__(parent, title=_("Mouse positions for %s") % (appName), size=(420, 300))
+			super(PositionsList, self).__init__(
+				parent, title=_("Mouse positions for %s") % (appName), size=(420, 300)
+			)
 			self.mousePositionsList(appName=appName)
 		elif goto:
 			super(PositionsList, self).__init__(parent, title=_("New mouse position"))
@@ -133,7 +140,10 @@ class PositionsList(wx.Dialog):
 		# Translators: The label for the list view of the mouse positions in the current application.
 		mousePositionsText = _("&Saved mouse positions")
 		self.mousePositionsList = sHelper.addLabeledControl(
-			mousePositionsText, wx.ListCtrl, style=wx.LC_REPORT | wx.LC_SINGLE_SEL, size=(550, 350)
+			mousePositionsText,
+			wx.ListCtrl,
+			style=wx.LC_REPORT | wx.LC_SINGLE_SEL,
+			size=(550, 350),
 		)
 		self.listItems()
 		self.mousePositionsList.Select(0, on=1)
@@ -211,10 +221,18 @@ class PositionsList(wx.Dialog):
 		x, y = winUser.getCursorPos()
 		w, h = api.getDesktopObject().location[2:]
 		self.xPos = mouseJumpHelper.addLabeledControl(
-			_("&X position"), gui.nvdaControls.SelectOnFocusSpinCtrl, min=0, max=w - 1, initial=x
+			_("&X position"),
+			gui.nvdaControls.SelectOnFocusSpinCtrl,
+			min=0,
+			max=w - 1,
+			initial=x,
 		)
 		self.yPos = mouseJumpHelper.addLabeledControl(
-			_("&Y position"), gui.nvdaControls.SelectOnFocusSpinCtrl, min=0, max=h - 1, initial=y
+			_("&Y position"),
+			gui.nvdaControls.SelectOnFocusSpinCtrl,
+			min=0,
+			max=h - 1,
+			initial=y,
 		)
 
 		mouseJumpHelper.addDialogDismissButtons(self.CreateButtonSizer(wx.OK | wx.CANCEL))
@@ -233,7 +251,8 @@ class PositionsList(wx.Dialog):
 			# Translators: The label of a field to enter a new name for a mouse position/tag.
 			_("New name"),
 			# Translators: The title of the dialog to rename a mouse position.
-			_("Rename"), oldName
+			_("Rename"),
+			oldName,
 		)
 		# When escape is pressed, an empty string is returned.
 		if name in ("", oldName):
@@ -242,8 +261,12 @@ class PositionsList(wx.Dialog):
 			gui.messageBox(
 				# Translators: An error displayed when renaming a mouse position
 				# and a tag with the new name already exists.
-				_("Another mouse position has the same name as the entered name. Please choose a different name."),
-				_("Error"), wx.OK | wx.ICON_ERROR, self
+				_(
+					"Another mouse position has the same name as the entered name. Please choose a different name."
+				),
+				_("Error"),
+				wx.OK | wx.ICON_ERROR,
+				self,
 			)
 			return
 		self.mousePositionsList.SetItemText(index, name)
@@ -267,13 +290,28 @@ class PositionsList(wx.Dialog):
 		shortCut = str.split(":")[1]
 		shortCut = shortCut.replace("control", "CONTROL")
 		if shortCut in [
-			"tab", "shift+tab", "upArrow", "downArrow", "leftArrow", "rightArrow", "home", "end", "escape",
-			"pageUp", "pageDown", ",", "numpadEnter", "space", "enter"]:
+			"tab",
+			"shift+tab",
+			"upArrow",
+			"downArrow",
+			"leftArrow",
+			"rightArrow",
+			"home",
+			"end",
+			"escape",
+			"pageUp",
+			"pageDown",
+			",",
+			"numpadEnter",
+			"space",
+			"enter",
+		]:
 			gui.messageBox(
 				# Translators: Message displayde if shortCut is not valid.
 				_("This shortCut is not valid, choose another one please"),
 				# Translators: Title of message box.
-				_("Information"), wx.OK | wx.ICON_INFORMATION
+				_("Information"),
+				wx.OK | wx.ICON_INFORMATION,
 			)
 			return
 		for k, v in self.positions.items():
@@ -303,7 +341,7 @@ class PositionsList(wx.Dialog):
 		if not clearPositions:
 			message = _(
 				# Translators: The confirmation prompt displayed when the user requests to delete the selected tag.
-				"Are you sure you want to delete the position named {name}? This cannot be undone."
+				"Are you sure you want to delete the position named {name}? This cannot be undone.",
 			).format(name=name)
 			# Translators: The title of the confirmation dialog for deletion of selected position.
 			title = _("Delete position")
@@ -311,13 +349,19 @@ class PositionsList(wx.Dialog):
 			message = _(
 				# Translators: The confirmation prompt displayed when the user is about to clear positions.
 				"Are you sure you want to clear mouse positions for the current application ({appName})? "
-				"This cannot be undone."
+				"This cannot be undone.",
 			).format(appName=self.appName)
 			# Translators: The title of the confirmation dialog for clearing mouse positions.
 			title = _("Clear mouse positions")
-		if gui.messageBox(
-			message, title, wx.YES_NO | wx.NO_DEFAULT | wx.ICON_QUESTION, self
-		) == wx.NO:
+		if (
+			gui.messageBox(
+				message,
+				title,
+				wx.YES_NO | wx.NO_DEFAULT | wx.ICON_QUESTION,
+				self,
+			)
+			== wx.NO
+		):
 			return
 		if not clearPositions:
 			del self.positions[name]
@@ -330,9 +374,12 @@ class PositionsList(wx.Dialog):
 			self.positions.clear()
 			gui.messageBox(
 				# Translators: A dialog message shown when tags for the application is cleared.
-				_("All mouse positions for the application {appName} have been deleted.").format(appName=self.appName),
+				_("All mouse positions for the application {appName} have been deleted.").format(
+					appName=self.appName
+				),
 				# Translators: Title of the tag clear confirmation dialog.
-				_("Mouse positions cleared"), wx.OK | wx.ICON_INFORMATION
+				_("Mouse positions cleared"),
+				wx.OK | wx.ICON_INFORMATION,
 			)
 			self.Close()
 
@@ -420,7 +467,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			entry = entry.replace("CONTROL", "ctrl")
 			try:
 				if gesture.displayName == entry.split(",")[2]:
-					x, y = entry.split(',')[:2]
+					x, y = entry.split(",")[:2]
 					wx.CallAfter(setMousePosition, int(x), int(y), announceMousePosition=False, click=True)
 					break
 			except Exception:
@@ -430,7 +477,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: input help message for a Golden Cursor command.
 		description=_("Opens a dialog listing mouse positions for the current application"),
 		gesture="kb:nvda+control+l",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_mousePositionsList(self, gesture):
 		# Don't even think about opening this dialog if positions list does not exist.
@@ -452,7 +499,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Opens a dialog to label the current mouse position and saves it"),
 		gesture="kb:nvda+shift+l",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_saveMousePosition(self, gesture):
 		appName = api.getFocusObject().appModule.appName
@@ -461,11 +508,13 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		x, y = str(x), str(y)
 		d = EnterPositionName(
 			# Translators: edit field label for new mouse position.
-			gui.mainFrame, _("Enter the name for the current mouse position (x: {positionX}, Y: {positionY}").format(
-				positionX=x, positionY=y
+			gui.mainFrame,
+			_("Enter the name for the current mouse position (x: {positionX}, Y: {positionY}").format(
+				positionX=x,
+				positionY=y,
 			),
 			# Translators: title for save mouse position dialog.
-			_("Save mouse position")
+			_("Save mouse position"),
 		)
 
 		def callback(result):
@@ -482,13 +531,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				position.write()
 				# Translators: presented when position (tag) has been saved.
 				ui.message(_("Position saved in %s.") % position.filename)
+
 		gui.runScriptModalDialog(d, callback)
 
 	@scriptHandler.script(
 		# Translators: input help message for a Golden Cursor command.
 		description=_("Changes mouse movement unit"),
 		gesture="kb:nvda+windows+c",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_mouseMovementChange(self, gesture):
 		pixelUnits = (1, 5, 10, 20, 50, 100)
@@ -510,7 +560,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: Input help message for a Golden Cursor add-on command.
 		description=_("toggles reporting of mouse coordinates in pixels when mouse moves"),
 		gesture="kb:nvda+windows+s",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_toggleSpeakPixels(self, gesture):
 		sayPixel = config.conf["goldenCursor"]["reportNewMouseCoordinates"]
@@ -527,7 +577,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Reports current X and Y mouse position"),
 		gesture="kb:nvda+windows+p",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_sayPosition(self, gesture):
 		reportMousePosition()
@@ -536,7 +586,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: input help mode message for a Golden Cursor add-on command.
 		description=_("Toggles mouse arrows to move the mouse with the arrow keys"),
 		gesture="kb:nvda+windows+m",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_toggleMouseArrows(self, gesture):
 		self.mouseArrows = not self.mouseArrows
@@ -556,7 +606,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Moves the Mouse pointer to the right"),
-		gesture="kb:nvda+windows+rightArrow"
+		gesture="kb:nvda+windows+rightArrow",
 	)
 	def script_moveMouseRight(self, gesture):
 		self.moveMouse(GCMouseRight)
@@ -564,7 +614,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Moves the Mouse pointer to the left"),
-		gesture="kb:nvda+windows+leftArrow"
+		gesture="kb:nvda+windows+leftArrow",
 	)
 	def script_moveMouseLeft(self, gesture):
 		self.moveMouse(GCMouseLeft)
@@ -572,7 +622,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Moves the Mouse pointer down"),
-		gesture="kb:nvda+windows+downArrow"
+		gesture="kb:nvda+windows+downArrow",
 	)
 	def script_moveMouseDown(self, gesture):
 		self.moveMouse(GCMouseDown)
@@ -580,7 +630,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Moves the Mouse pointer up"),
-		gesture="kb:nvda+windows+upArrow"
+		gesture="kb:nvda+windows+upArrow",
 	)
 	def script_moveMouseUp(self, gesture):
 		self.moveMouse(GCMouseUp)
@@ -588,7 +638,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	@scriptHandler.script(
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Opens a dialog to enter the X and Y coordinates for the mouse to move to"),
-		gesture="kb:nvda+windows+j"
+		gesture="kb:nvda+windows+j",
 	)
 	def script_goToPosition(self, gesture):
 		try:
@@ -604,7 +654,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		# Translators: Input help message for a Golden Cursor command.
 		description=_("Toggles mouse movement restriction between current application and unrestricted"),
 		gesture="kb:nvda+windows+r",
-		**speakOnDemand
+		**speakOnDemand,
 	)
 	def script_toggleMouseRestriction(self, gesture):
 		self.getAppRestriction = self.getMouse()
@@ -667,13 +717,16 @@ class GoldenCursorSettings(gui.settingsDialogs.SettingsPanel):
 		self.mouseCoordinatesCheckBox = gcHelper.addItem(
 			# Translators: This is the label for a checkbox in the
 			# Golden Cursor settings dialog.
-			wx.CheckBox(self, label=_("&Announce new mouse coordinates when mouse moves"))
+			wx.CheckBox(self, label=_("&Announce new mouse coordinates when mouse moves")),
 		)
 		self.mouseCoordinatesCheckBox.SetValue(config.conf["goldenCursor"]["reportNewMouseCoordinates"])
 		self.mouseMovementUnit = gcHelper.addLabeledControl(
 			# Translators: The label for a setting in Golden Cursor settings dialog to change mouse movement units.
-			_("Mouse movement &unit (in pixels)"), gui.nvdaControls.SelectOnFocusSpinCtrl,
-			min=1, max=100, initial=config.conf["goldenCursor"]["mouseMovementUnit"]
+			_("Mouse movement &unit (in pixels)"),
+			gui.nvdaControls.SelectOnFocusSpinCtrl,
+			min=1,
+			max=100,
+			initial=config.conf["goldenCursor"]["mouseMovementUnit"],
 		)
 
 	def onSave(self):
