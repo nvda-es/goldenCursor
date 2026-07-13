@@ -125,7 +125,9 @@ class PositionsList(wx.Dialog):
 
 		if appName:
 			super(PositionsList, self).__init__(
-				parent, title=_("Mouse positions for %s") % (appName), size=(420, 300)
+				parent,
+				title=_("Mouse positions for %s") % (appName),
+				size=(420, 300),
 			)
 			self.mousePositionsList(appName=appName)
 		elif goto:
@@ -262,7 +264,7 @@ class PositionsList(wx.Dialog):
 				# Translators: An error displayed when renaming a mouse position
 				# and a tag with the new name already exists.
 				_(
-					"Another mouse position has the same name as the entered name. Please choose a different name."
+					"Another mouse position has the same name as the entered name. Please choose a different name.",
 				),
 				_("Error"),
 				wx.OK | wx.ICON_ERROR,
@@ -375,7 +377,7 @@ class PositionsList(wx.Dialog):
 			gui.messageBox(
 				# Translators: A dialog message shown when tags for the application is cleared.
 				_("All mouse positions for the application {appName} have been deleted.").format(
-					appName=self.appName
+					appName=self.appName,
 				),
 				# Translators: Title of the tag clear confirmation dialog.
 				_("Mouse positions cleared"),
