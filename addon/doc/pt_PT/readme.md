@@ -14,7 +14,7 @@ rato para cada aplicação, individualmente.
   pressing the assigned gesture, a left click will be performed in the saved
   position.
 * Shift+NVDA+l: Guarda uma etiqueta ou um nível para a posição actual do
-  rato, na aplicação actualmente focada.
+  rato, na aplicação actualmente focada. 
 * Windows+NVDA+C: altera a unidade de movimento do rato.
 * Windows+NVDA+R: alterna a restrição do rato.
 * Windows+NVDA+S: alterna entre indicação de coordenadas da posição do rato.
@@ -85,7 +85,7 @@ comandos do NVDA sob a categoria Cursor Dourado.
   etiqueta.
 * Impediu-se a abertura de várias instâncias do mesmo extra.
 * Melhorou-se a aparência da lista de posições do rato e do diálogo de
-  saltar para posições.
+  saltar para posições. 
 
 ## Versão 2.0
 
